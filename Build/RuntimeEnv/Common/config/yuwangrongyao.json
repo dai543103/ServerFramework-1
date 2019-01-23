@@ -1,0 +1,902 @@
+[
+  {
+    "Id": 1, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 3, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 3, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 2, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 3, 
+    "Daily1Num_i": 30000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 3, 
+    "Week1Num_i": 200000
+  }, 
+  {
+    "Id": 3, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 3, 
+    "Daily1Num_i": 20000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 3, 
+    "Week1Num_i": 100000
+  }, 
+  {
+    "Id": 4, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 100000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 5, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 100000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 6, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 100000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 7, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 100000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 8, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 100000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 9, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 100000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 10, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 100000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 300000
+  }, 
+  {
+    "Id": 11, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 12, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 13, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 14, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 15, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 16, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 17, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 18, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 19, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 20, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 21, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 22, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 23, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 24, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 25, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 26, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 27, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 28, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 29, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 30, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 31, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 32, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 33, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 34, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 35, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 36, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 37, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 38, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 39, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 40, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 41, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 42, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 43, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 44, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 45, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 46, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 47, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 48, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 49, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 50, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 50000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 150000
+  }, 
+  {
+    "Id": 51, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 52, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 53, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 54, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 55, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 56, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 57, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 58, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 59, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 60, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 61, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 62, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 63, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 64, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 65, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 66, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 67, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 68, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 69, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 70, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 71, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 72, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 73, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 74, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 75, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 76, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 77, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 78, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 79, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 80, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 81, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 82, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 83, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 84, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 85, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 86, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 87, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 88, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 89, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 90, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 91, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 92, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 93, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 94, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 95, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 96, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 97, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 98, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 99, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }, 
+  {
+    "Id": 100, 
+    "Daily1Type_i": 1, 
+    "Daily1Id_i": 1, 
+    "Daily1Num_i": 10000, 
+    "Week1Type_i": 1, 
+    "Week1Id_i": 1, 
+    "Week1Num_i": 10000
+  }
+]

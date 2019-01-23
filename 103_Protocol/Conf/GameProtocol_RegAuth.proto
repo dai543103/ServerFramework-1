@@ -1,0 +1,129 @@
+//本文件中主要定义Account Server相关的通信协议
+
+import "GameProtocol_Common.proto";
+
+enum enPlatformType
+{
+	LOGIN_PLATFORM_INVALID	= 0;		//非法的登录渠道
+	LOGIN_PLATFORM_MAIN		= 1;		//游戏官方平台
+	LOGIN_PLATFORM_YMN		= 2;		//有猫腻平台
+	LOGIN_PLATFORM_WECHAT	= 3;		//微信公众号平台
+	LOGIN_PLATFORM_MAX		= 4;		//类型最大，程序使用
+}
+
+//玩家实名认证状态
+enum RealStatType
+{
+	REAL_STAT_NONAME	= 0;		//未实名认证
+	REAL_STAT_MINOR		= 1;		//认证未成年人
+	REAL_STAT_ADULT		= 2;		//认证成年人
+}
+
+//账号信息
+message AccountInfo
+{
+	optional string strAccount = 1;		//玩家账号
+	optional int32 iType = 2;			//账号类型,对应enPlatformType
+	optional string strPassword = 3;	//账号密码，没有不传
+	optional string strThirdParty = 4;	//三方平台信息
+	optional string strDeviceID = 5;	//设备ID
+	optional string strChannel = 6;		//渠道号
+	optional string strClientType = 7;	//客户端系统类型
+	optional string strAppID = 8;		//游戏appid，客户端不传
+	optional int32 iWorldID = 9;		//大区ID，客户端不传
+	optional string strPlatformID = 10;	//玩家平台ID
+	optional int32 iRealNameStat = 11;	//玩家实名状态，对应RealStatType, 客户端不传
+	optional string strPicID = 12;		//玩家头像URL，如果没有为空
+}
+
+//----------------------------------------------------------------
+
+//注册平台帐号的请求
+message RegAuth_RegAccount_Request
+{
+	optional AccountInfo stInfo = 1;	//注册账号信息
+}
+
+//注册平台帐号的返回
+message RegAuth_RegAccount_Response
+{
+	optional int32 iResult = 1;			//注册成功还是失败
+}
+
+//平台帐号的认证请求
+message RegAuth_AuthAccount_Request
+{
+	optional AccountInfo stInfo = 1;		//认证账号信息
+}
+
+//平台帐号的认证返回
+message RegAuth_AuthAccount_Response
+{
+	optional int32 iResult = 1;			//操作的返回结果
+	optional uint32 uin = 2;			//认证的返回的uin
+	optional int32 iWorldID = 3;		//该账号所属世界服ID
+	optional string strHostInfo = 4;	//世界服主机信息，格式为 IP:PORT
+	optional string strSessionKey = 5;	//认证返回的sessionkey
+	optional AccountInfo stInfo = 6;	//认证账号信息
+	optional bool bIsRegister = 7;		//是否注册账号
+}
+
+//账号的平台认证请求
+message RegAuth_PlatformAuth_Request
+{
+	optional AccountInfo stInfo = 1;	//平台账号信息
+}
+
+//账号的平台认证返回
+message RegAuth_PlatformAuth_Response
+{
+	optional int32 iResult = 1;			//平台认证结果
+	optional AccountInfo stInfo = 2;	//平台账号信息
+}
+
+//----------------------------------------------------------------
+
+//----------------------------------------------------------------
+
+//帐号数据库服务器相关的协议
+//----------------------------------------------------------------
+
+//增加新帐号记录的请求
+message RegAuthDB_AddAccount_Request
+{
+	optional AccountInfo stInfo = 1;	//平台账号信息
+	optional int32 iWorldID = 3;		//插入账号所属的世界服ID
+}
+
+//增加新帐号记录的返回
+message RegAuthDB_AddAccount_Response
+{
+	optional int32 iResult = 1;			//插入记录请求的处理结果
+}
+
+//拉取帐号记录的请求
+message RegAuthDB_GetAccount_Request
+{
+	optional AccountInfo stInfo = 1;	//平台账号信息
+}
+
+//拉取帐号记录的返回
+message RegAuthDB_GetAccount_Response
+{
+	optional int32 iResult = 1;			//拉取帐号请求的返回结果
+	optional AccountInfo stInfo = 2;	//平台账号信息
+	optional uint32 uin = 3;			//拉取的帐号的uin
+	optional int32 iWorldID = 4;		//账号所属的世界服ID
+}
+
+//删除帐号记录的请求
+message RegAuthDB_DelAccount_Request
+{
+	optional AccountInfo stInfo = 2;	//平台账号信息
+}
+
+//删除帐号记录的返回
+message RegAuthDB_DelAccount_Response
+{
+	optional int32 iResult = 1;			//删除帐号请求的处理结果
+}

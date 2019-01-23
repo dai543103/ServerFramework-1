@@ -1,0 +1,7 @@
+本文档列出当前支持的所有GM命令：
+1、背包和物品相关：
+	a).背包增加物品：		// AddRepItem <iItemID> <iItemNum> <bIsBinded>
+
+4).游戏资源相关：
+	a).增加游戏资源:		// AddUserRes <iResType> <iAddNum>
+

@@ -1,0 +1,1068 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A1177EB0-A5E3-4D51-B260-204A25E4FF88}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ServerFramework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0;..\..\..\..\001_ServerLib\3RdParty\json-0.5.0;..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2;..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0;..\..\..\..\001_ServerLib\3RdParty\pugixml-1.2;..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5;..\..\..\..\001_ServerLib\3RdParty\zeromq-3.2.3;..\..\..\..\001_ServerLib\BaseLibs;..\..\..\..\002_CommLib;..\..\..\..\101_ZoneServer;..\..\..\..\103_Protocol\Src;..\..\..\..\113_RegAuthServer\libghttp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\adler32.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\aes.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\algo_base.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\algo_factory.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\alg_id.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\allocate.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\arc4.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_int.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_obj.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_oid.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_str.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\auto_rng.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\b64_filt.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\base64.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\basefilt.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bcrypt.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\benchmark.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ber_dec.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bigint.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\blinding.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\block_cipher.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\blowfish.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bmw_512.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\botan.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bswap.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\buf_comp.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\buf_filt.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\build.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\camellia.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cascade.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cast128.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cast256.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cbc.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cbc_mac.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\certstor.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cfb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\charset.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cmac.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\comb4p.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cpuid.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\crc24.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\crc32.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\crl_ent.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cryptobox.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ctr.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cts.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\curve_gfp.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\datastor.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\data_snk.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\data_src.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\der_enc.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\des.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\desx.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dh.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\divide.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dlies.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dl_algo.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dl_group.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dsa.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dyn_engine.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eax.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecc_key.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecdh.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecdsa.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ec_group.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\elgamal.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eme.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eme1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eme_pkcs.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa1_bsi.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa3.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa4.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa_raw.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\engine.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\entropy_src.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\exceptn.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\fd_unix.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\filter.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\filters.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\fpe_fe1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\get_byte.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\get_pbe.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\global_state.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\gost_28147.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\gost_3410.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\gost_3411.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\has160.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hash.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hash_id.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hex.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hex_filt.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hmac.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hmac_rng.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\idea.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\idea_sse2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\if_algo.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\init.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kasumi.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kdf.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kdf1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kdf2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\keccak.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\keypair.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\key_filt.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\key_spec.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\libstate.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\lion.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\loadstor.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\lookup.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\look_pk.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\lubyrack.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mac.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mars.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\md2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\md4.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\md5.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mdx_hash.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mem_ops.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mgf1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\misty1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mode_pad.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mp_types.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\noekeon.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\noekeon_simd.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\nr.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\numthry.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ofb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\oids.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\openpgp.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\package.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\parsing.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\par_hash.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\passhash9.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbe.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbes1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbes2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbkdf.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbkdf1.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbkdf2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pem.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pgp_s2k.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pipe.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pkcs10.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pkcs8.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pk_filts.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pk_keys.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pk_ops.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\point_gfp.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pow_mod.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\prf_ssl3.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\prf_tls.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\prf_x942.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pubkey.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pubkey_enums.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\randpool.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rc2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rc5.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rc6.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\reducer.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rfc3394.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rmd128.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rmd160.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rng.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rotate.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rsa.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rw.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\safer_sk.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\salsa20.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\scan_name.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\secmem.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\secqueue.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\seed.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\selftest.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\serpent.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\serp_simd.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha160.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha1_sse2.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha1_x86_64.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha2_32.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha2_64.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\skein_512.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\skipjack.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\square.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\srp6.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ssl3_mac.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\stream_cipher.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\symkey.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sym_algo.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tea.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tiger.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\time.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_client.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_connection.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_exceptn.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_magic.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_policy.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_record.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_server.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_session_key.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_suites.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tss.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\turing.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\twofish.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\types.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ui.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\version.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\whrlpool.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\wid_wake.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509cert.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509self.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509stor.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_ca.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_crl.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_dn.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_ext.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_key.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_obj.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x919_mac.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x931_rng.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\xtea.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\xtea_simd.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\xts.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-death-test.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-message.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-param-test.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-printers.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-spi.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-test-part.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-typed-test.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest_pred_impl.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest_prod.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\autolink.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\config.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\features.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\forwards.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\json.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\reader.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\value.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\writer.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lapi.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lauxlib.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lcode.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lctype.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ldebug.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ldo.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lfunc.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lgc.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\llex.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\llimits.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lmem.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lobject.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lopcodes.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lparser.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lstate.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lstring.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ltable.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ltm.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lua.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\luaconf.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lualib.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lundump.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lvm.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lzio.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\descriptor.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\descriptor.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\descriptor_database.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\dynamic_message.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\extension_set.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\generated_enum_reflection.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\generated_message_reflection.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\generated_message_util.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\message.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\message_lite.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\package_info.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\reflection_ops.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\repeated_field.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\service.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\test_util.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\test_util_lite.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\text_format.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_custom_options.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_embed_optimize_for.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_empty.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import_lite.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import_public.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import_public_lite.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_lite.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_lite_imports_nonlite.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_mset.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_no_generic_services.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_optimize_for.pb.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unknown_field_set.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\wire_format.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\wire_format_lite.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\wire_format_lite_inl.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\pugixml-1.2\pugiconfig.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\pugixml-1.2\pugixml.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\zeromq-3.2.3\zmq.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\zeromq-3.2.3\zmq_utils.h" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\AESCbcEncryptor.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\AppUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\BacktraceInfo.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Base64.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\BiDirQueue.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CacheStatistic.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueue.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueueManager.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CommonDef.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ConfigFile.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\DBClientWrapper.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\DecodeStream.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\EncodeStream.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ErrorDef.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FileUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FixedCache.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FixedHashCache.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FreqCtrl.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K32.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K64.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KStr.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KString.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KStringV32.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Int64Utility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\lib_md5.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LinearQueue.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LineConfig.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LogAdapter.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LogFile.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LRUHashCache.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\lz4.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\MathUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\MsgOverViewStatistic.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\MsgStatistic.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\NowTime.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ObjAllocator.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ObjIdxList.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ObjStatistic.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\oi_tea.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\PasswordEncryptionUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\PerformanceStatistic.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ProtoDataUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Random.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SectionConfig.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SessionKeyUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SharedMemory.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ShmObjectCreator.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SignalUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SingletonTemplate.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SocketUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SortAlgorithm.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SortArray.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\StaticIdxList.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Statistic.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\StringSplitter.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\StringUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SymmetryEncryption.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TCPConnector.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TCPListener.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TempMemoryMng.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Thread.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ThreadLogManager.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TimeUtility.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TimeValue.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\UDPSocket.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\UinPrivManager.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\UnixTime.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\URLCoder.hpp" />
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ZmqBus.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\AppThread.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\AppThreadManager.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\BaseConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\CommDefine.h" />
+    <ClInclude Include="..\..\..\..\002_CommLib\DBConfigManager.h" />
+    <ClInclude Include="..\..\..\..\002_CommLib\ErrorNumDef.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\MaskWordConfig.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\MsgHandlerSet.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\ServerBusConfigManager.h" />
+    <ClInclude Include="..\..\..\..\002_CommLib\ServerBusManager.h" />
+    <ClInclude Include="..\..\..\..\002_CommLib\MsgHandler.hpp" />
+    <ClInclude Include="..\..\..\..\002_CommLib\ProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Chat\ChatHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Chat\ChatUtility.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeManager.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishAlgorithm.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishpondHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishpondManager.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishpondObj.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishUtility.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GameMasterHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMBaseCommand.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMHorseLampCommand.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMMailCommand.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMReposityCommand.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMResourceCommand.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\AppDef.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\AppLoop.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\AppTick.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\FetchRoleWorldHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameEventManager.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameObjCommDef.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameRole.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameSession.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameUnitID.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GMPrivConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\Handler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\HandlerFactory.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\HandlerHelper.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\HandlerList.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ModuleHelper.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\OnlineStatTick.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\SessionManager.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\UnitUtility.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\UpdateRoleInfoHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneMsgHelper.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneObjectAllocator.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneObjectHelper.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneOssLog.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Login\KickRoleWorldHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Login\LoginHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Login\LogoutHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Lottery\LasvegasManager.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Lottery\LotteryHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Mail\MailHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Mail\MailManager.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Mail\MailUtility.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\NewGuide\NewGuideHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Quest\QuestHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Quest\QuestManager.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Quest\QuestUtility.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Rank\RankInfoHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Rank\RankInfoManager.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Recharge\RechargeHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Recharge\RechargeManager.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Recharge\RechargeUtility.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsHandler.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsManager.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsUtility.hpp" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Resource\ResourceUtility.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Reward\RewardHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Reward\RewardUtility.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Vip\VipPrivHandler.h" />
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Vip\VipUtility.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol.hpp" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_Account.pb.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_Common.pb.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_CS.pb.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_MsgID.pb.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_RegAuth.pb.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_USERDB.pb.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_World.pb.h" />
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_Zone.pb.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\AppDefW.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\AppLoopW.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\AppTick.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\ChatHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\CreateRoleAccountHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\DeleteRoleAccountHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\ExchangeWorldHandler.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\FetchRoleWorldHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\GameMasterHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\Handler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\HandlerFactory.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\KickRoleWorldHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\LasvegasWorldHandler.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\ListRoleAccountHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\ListZoneHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\LogoutHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\MailWorldHandler.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\ModuleHelper.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\OnlineStatHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\RankInfoWorldHandler.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\LimitLotteryWorldHandler.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\RechargeWorldHandler.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\UnitTick.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\UpdateRoleWorldHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldOssLog.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldExchangeLimitManager.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldLasvegasManager.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldMailManager.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldMsgHelper.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldNameHandler.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldObjectAllocatorW.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldObjectHelperW_K32.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldObjectHelperW_K64.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldOnlineStatTick.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldProtocolEngineW.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldRankInfoManager.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldLimitLotteryManager.h" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldRoleStatus.hpp" />
+    <ClInclude Include="..\..\..\..\108_WorldServer\ZoneTick.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\AppDef.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBApp.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBCreateRoleHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBDeleteRoleHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBFetchRoleHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBGMHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBHandlerSet.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBListRoleHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBMailHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBRechargeHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBUpdateRoleHandler.hpp" />
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\SeqConverter.hpp" />
+    <ClInclude Include="..\..\..\..\112_NameDBServer\AddNameHandler.hpp" />
+    <ClInclude Include="..\..\..\..\112_NameDBServer\AppDef.hpp" />
+    <ClInclude Include="..\..\..\..\112_NameDBServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\112_NameDBServer\DeleteNameHandler.hpp" />
+    <ClInclude Include="..\..\..\..\112_NameDBServer\NameDBApp.hpp" />
+    <ClInclude Include="..\..\..\..\112_NameDBServer\NameDBHandlerSet.hpp" />
+    <ClInclude Include="..\..\..\..\112_NameDBServer\NameDBProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\AuthAccountHandler.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\CacheTime.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\ClientClosedHandler.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\ghttp.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\ghttp_constants.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_base64.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_date.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_global.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_hdrs.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_req.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_resp.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_trans.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_uri.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\MainPlatformProxy.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\PlatformAuthHandler.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\PlatformProxy.h" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthApp.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthDBAddHandler.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthDBFetchHandler.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthHandlerSet.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthMsgProcessor.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthOssLog.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthPublic.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegisterAccountHandler.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\SessionManager.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\SessionObj.hpp" />
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\YmnPlatformProxy.h" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\AddRegAuthHandler.hpp" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\AppDef.hpp" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\AuthAccountHandler.h" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\DeleteRegAuthHandler.hpp" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\FetchRegAuthHandler.hpp" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBApp.hpp" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBHandlerSet.hpp" />
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\OrderManager.h" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\WechatRechargeProxy.h" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\YmnRechargeProxy.h" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\EpollWrapper.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ExternalClientPool.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\FDPool.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\IOHandler.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\AppDefine.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\RechargeProxy.h" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ServerListener.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ServerStatistic.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\OverloadSafeguard.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\SocketOperator.hpp" />
+    <ClInclude Include="..\..\..\..\115_RechargeServer\Statistic.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\CacheTime.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeApp.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeHandlerSet.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeMsgProcessor.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangePublic.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\GetCardNoHandler.hpp" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\ghttp.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\ghttp_constants.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_base64.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_date.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_global.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_hdrs.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_req.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_resp.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_trans.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_uri.h" />
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\OnlineExchangeHandler.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\AppDef.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\ConfigManager.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\LogServerApp.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\LogServerHandlerSet.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\LogServerProtocolEngine.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\LogTargetProxy.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\MofangLogProxy.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\TapDBLogProxy.hpp" />
+    <ClInclude Include="..\..\..\..\117_LogServer\WriteLogHandler.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\001_ServerLib\BaseLibs\ChangeLog.txt" />
+    <Text Include="..\..\..\..\001_ServerLib\CMakeLists.txt" />
+    <Text Include="..\..\..\..\002_CommLib\CMakeLists.txt" />
+    <Text Include="..\..\..\..\101_ZoneServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\103_Protocol\CMakeLists.txt" />
+    <Text Include="..\..\..\..\103_Protocol\Conf\readme.txt" />
+    <Text Include="..\..\..\..\103_Protocol\Src\CMakeLists.txt" />
+    <Text Include="..\..\..\..\108_WorldServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\111_RoleDBServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\112_NameDBServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\113_RegAuthServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\114_RegAuthDBServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\115_RechargeServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\116_ExchangeServer\CMakeLists.txt" />
+    <Text Include="..\..\..\..\117_LogServer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\liblua.a" />
+    <Library Include="..\..\..\..\001_ServerLib\3RdParty\pugixml-1.2\libpugixml.a" />
+    <Library Include="..\..\..\..\001_ServerLib\3RdParty\zeromq-3.2.3\libzmq.a" />
+    <Library Include="..\..\..\..\001_ServerLib\BaseLibs\libServerLib.a" />
+    <Library Include="..\..\..\..\001_ServerLib\BaseLibs\libServerLibMT.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-param-test.h.pump" />
+    <None Include="..\..\..\..\103_Protocol\Conf\BuildProtocol.bat" />
+    <None Include="..\..\..\..\103_Protocol\Conf\BuildProtocol.sh" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_Account.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_Common.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_CS.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_MsgID.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_RegAuth.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_USERDB.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_World.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_Zone.proto" />
+    <None Include="..\..\..\..\103_Protocol\Conf\protoc" />
+    <None Include="..\..\..\..\103_Protocol\Conf\protoc.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\AESCbcEncryptor.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\AppUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\BacktraceInfo.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Base64.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\BiDirQueue.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\CacheStatistic.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueue.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueueManager.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ConfigFile.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\DBClientWrapper.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\DecodeStream.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\EncodeStream.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\FileUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K32.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K64.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KStringV32.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\lib_md5.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\LineConfig.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\LogAdapter.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\LogFile.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\lz4.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\MathUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\MsgOverViewStatistic.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\MsgStatistic.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\NowTime.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ObjAllocator.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ObjIdxList.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ObjStatistic.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\oi_tea.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\PasswordEncryptionUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\PerformanceStatistic.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Random.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SectionConfig.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SessionKeyUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SharedMemory.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SignalUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SocketUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SortArray.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Statistic.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\StringSplitter.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\StringUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SymmetryEncryption.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TCPConnector.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TCPListener.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TempMemoryMng.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Thread.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ThreadLogManager.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TimeUtility.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TimeValue.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\UDPSocket.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\UinPrivManager.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\UnixTime.cpp" />
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ZmqBus.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\AppThread.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\AppThreadManager.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\BaseConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\DBConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\MaskWordConfig.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\MsgHandlerSet.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\ServerBusConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\ServerBusManager.cpp" />
+    <ClCompile Include="..\..\..\..\002_CommLib\MsgHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Chat\ChatHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Chat\ChatUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishAlgorithm.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishpondHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishpondManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishpondObj.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GameMasterHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMBaseCommand.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMHorseLampCommand.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMMailCommand.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMReposityCommand.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMResourceCommand.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\AppLauncher.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\AppLoop.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\AppTick.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\FetchRoleWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameEventManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameProtocolEngine.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameRole.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameSession.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameUnitID.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GMPrivConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\Handler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\HandlerFactory.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\HandlerHelper.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\HandlerList.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ModuleHelper.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\OnlineStatTick.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\SessionManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\UnitUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\UpdateRoleInfoHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ZoneMsgHelper.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ZoneObjectAllocator.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ZoneOssLog.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Login\KickRoleWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Login\LoginHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Login\LogoutHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Lottery\LasvegasManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Lottery\LotteryHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Mail\MailHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Mail\MailManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Mail\MailUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\NewGuide\NewGuideHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Quest\QuestHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Quest\QuestManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Quest\QuestUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Rank\RankInfoHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Rank\RankInfoManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Recharge\RechargeHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Recharge\RechargeManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Recharge\RechargeUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsManager.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Resource\ResourceUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Reward\RewardHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Reward\RewardUtility.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Vip\VipPrivHandler.cpp" />
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Vip\VipUtility.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_Account.pb.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_Common.pb.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_CS.pb.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_MsgID.pb.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_RegAuth.pb.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_USERDB.pb.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_World.pb.cpp" />
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_Zone.pb.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\AppLoopW.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\AppTick.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\ChatHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\CreateRoleAccountHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\DeleteRoleAccountHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\ExchangeWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\FetchRoleWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\GameMasterHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\Handler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\HandlerFactory.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\KickRoleWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\LasvegasWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\ListRoleAccountHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\ListZoneHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\LogoutHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\MailWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\MainApp.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\ModuleHelper.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\OnlineStatHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\RankInfoWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\LimitLotteryWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\RechargeWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\UnitTick.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\UpdateRoleWorldHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldOssLog.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldExchangeLimitManager.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldLasvegasManager.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldMailManager.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldMsgHelper.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldNameHandler.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldObjectAllocatorW.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldOnlineStatTick.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldProtocolEngineW.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldRankInfoManager.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldLimitLotteryManager.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldRoleStatus.cpp" />
+    <ClCompile Include="..\..\..\..\108_WorldServer\ZoneTick.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\AppLauncher.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBApp.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBCreateRoleHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBDeleteRoleHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBFetchRoleHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBGMHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBHandlerSet.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBListRoleHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBMailHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBProtocolEngine.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBRechargeHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBUpdateRoleHandler.cpp" />
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\SeqConverter.cpp" />
+    <ClCompile Include="..\..\..\..\112_NameDBServer\AddNameHandler.cpp" />
+    <ClCompile Include="..\..\..\..\112_NameDBServer\AppLauncher.cpp" />
+    <ClCompile Include="..\..\..\..\112_NameDBServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\112_NameDBServer\DeleteNameHandler.cpp" />
+    <ClCompile Include="..\..\..\..\112_NameDBServer\NameDBApp.cpp" />
+    <ClCompile Include="..\..\..\..\112_NameDBServer\NameDBHandlerSet.cpp" />
+    <ClCompile Include="..\..\..\..\112_NameDBServer\NameDBProtocolEngine.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\AppLauncher.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\AuthAccountHandler.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\CacheTime.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\ClientClosedHandler.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\ghttp.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_base64.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_date.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_hdrs.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_req.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_resp.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_trans.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_uri.c" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\MainPlatformProxy.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\PlatformAuthHandler.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthApp.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthDBAddHandler.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthDBFetchHandler.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthHandlerSet.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthMsgProcessor.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthOssLog.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthProtocolEngine.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegisterAccountHandler.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\SessionManager.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\SessionObj.cpp" />
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\YmnPlatformProxy.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\AddRegAuthHandler.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\AppLauncher.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\AuthAccountHandler.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\DeleteRegAuthHandler.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\FetchRegAuthHandler.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBApp.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBHandlerSet.cpp" />
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBProtocolEngine.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\OrderManager.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\RechargeProxy.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\WechatRechargeProxy.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\YmnRechargeProxy.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\EpollWrapper.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ExternalClientPool.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\FDPool.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\IOHandler.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ServerListener.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ServerStatistic.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\MainApp.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\OverloadSafeguard.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\SocketOperator.cpp" />
+    <ClCompile Include="..\..\..\..\115_RechargeServer\Statistic.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\AppLauncher.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\CacheTime.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeApp.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeHandlerSet.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeMsgProcessor.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeProtocolEngine.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\GetCardNoHandler.cpp" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\ghttp.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_base64.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_date.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_hdrs.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_req.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_resp.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_trans.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_uri.c" />
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\OnlineExchangeHandler.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\AppLauncher.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\ConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\LogServerApp.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\LogServerHandlerSet.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\LogServerProtocolEngine.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\MofangLogProxy.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\TapDBLogProxy.cpp" />
+    <ClCompile Include="..\..\..\..\117_LogServer\WriteLogHandler.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

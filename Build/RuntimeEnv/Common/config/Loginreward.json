@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1, 
+    "RewardType_i": 1, 
+    "RewardID_i": 3, 
+    "RewardNum_i": 100
+  }, 
+  {
+    "Id": 2, 
+    "RewardType_i": 2, 
+    "RewardID_i": 40002, 
+    "RewardNum_i": 1
+  }, 
+  {
+    "Id": 3, 
+    "RewardType_i": 1, 
+    "RewardID_i": 1, 
+    "RewardNum_i": 2000
+  }, 
+  {
+    "Id": 4, 
+    "RewardType_i": 1, 
+    "RewardID_i": 1, 
+    "RewardNum_i": 5000
+  }, 
+  {
+    "Id": 5, 
+    "RewardType_i": 1, 
+    "RewardID_i": 3, 
+    "RewardNum_i": 200
+  }, 
+  {
+    "Id": 6, 
+    "RewardType_i": 1, 
+    "RewardID_i": 1, 
+    "RewardNum_i": 20000
+  }, 
+  {
+    "Id": 7, 
+    "RewardType_i": 2, 
+    "RewardID_i": 10004, 
+    "RewardNum_i": 1
+  }
+]

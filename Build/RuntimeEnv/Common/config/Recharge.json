@@ -1,0 +1,106 @@
+[
+  {
+    "Id": 10000, 
+    "Rmb_i": 60, 
+    "RechargeType_i": 1, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 60000, 
+    "ExtraNum_i": 0
+  }, 
+  {
+    "Id": 10001, 
+    "Rmb_i": 300, 
+    "RechargeType_i": 1, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 300000, 
+    "ExtraNum_i": 0
+  }, 
+  {
+    "Id": 10002, 
+    "Rmb_i": 680, 
+    "RechargeType_i": 1, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 680000, 
+    "ExtraNum_i": 0
+  }, 
+  {
+    "Id": 10003, 
+    "Rmb_i": 1280, 
+    "RechargeType_i": 1, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 1280000, 
+    "ExtraNum_i": 0
+  }, 
+  {
+    "Id": 10004, 
+    "Rmb_i": 3280, 
+    "RechargeType_i": 1, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 3280000, 
+    "ExtraNum_i": 0
+  }, 
+  {
+    "Id": 10005, 
+    "Rmb_i": 6480, 
+    "RechargeType_i": 1, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 6480000, 
+    "ExtraNum_i": 0
+  }, 
+  {
+    "Id": 10007, 
+    "Rmb_i": 30, 
+    "RechargeType_i": 2, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 30, 
+    "ExtraNum_i": 0
+  }, 
+  {
+    "Id": 10010, 
+    "Rmb_i": 6, 
+    "RechargeType_i": 4, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 60, 
+    "ExtraNum_i": 60
+  }, 
+  {
+    "Id": 10011, 
+    "Rmb_i": 30, 
+    "RechargeType_i": 4, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 300, 
+    "ExtraNum_i": 300
+  }, 
+  {
+    "Id": 10012, 
+    "Rmb_i": 68, 
+    "RechargeType_i": 4, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 680, 
+    "ExtraNum_i": 680
+  }, 
+  {
+    "Id": 10013, 
+    "Rmb_i": 128, 
+    "RechargeType_i": 4, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 1280, 
+    "ExtraNum_i": 1280
+  }, 
+  {
+    "Id": 10014, 
+    "Rmb_i": 328, 
+    "RechargeType_i": 4, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 3280, 
+    "ExtraNum_i": 3280
+  }, 
+  {
+    "Id": 10015, 
+    "Rmb_i": 648, 
+    "RechargeType_i": 4, 
+    "RechargeID_i": 0, 
+    "RechargeNum_i": 6480, 
+    "ExtraNum_i": 6480
+  }
+]

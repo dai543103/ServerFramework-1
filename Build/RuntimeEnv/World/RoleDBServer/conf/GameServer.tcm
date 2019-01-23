@@ -1,0 +1,10 @@
+# 内网服务器通信的Bus
+# ID 格式为 WorldID.ServerType.InstanceID.ZoneID
+[ServerBus]
+ServerBusNum = 1
+
+# World to RoleDB, Server End
+IsServerEnd_0   = 1
+ServerBusID_0   = #WORLDID#.1.1.0
+ServerBusIP_0   = #SERVERIP#
+ServerBusPort_0 = #WORLD2ROLEDB#

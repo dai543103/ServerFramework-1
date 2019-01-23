@@ -1,0 +1,258 @@
+//本文件用于定义服务器数据存储的格式
+
+//DB中实际保存的玩家数据格式为protobuf序列化后的数据再进行lz4压缩，可以大幅减少存储的数据
+
+import "GameProtocol_Common.proto";
+
+//玩家数据在服务器中存储的格式
+//经过protobuf序列化再lz4压缩后的数据
+message GameUserInfo
+{
+	optional uint32 uin = 1;					//玩家的uin
+	optional uint32 uiSeq = 2;					//玩家角色的Seq
+	optional bytes strBaseInfo = 3;				//玩家的基础数据
+	optional bytes strQuestInfo = 4;			//玩家的任务数据
+	optional bytes strItemInfo = 5;				//玩家仓库背包的道具信息
+	optional bytes strFriendInfo = 6;			//玩家的好友信息
+	optional bytes strMailInfo = 7;				//玩家邮件信息
+	optional bytes strReserved1 = 8;			//保留BLOB字段，作为后面扩展功能使用
+	optional bytes strReserved2 = 9;			//保留BLOB字段，作为后面扩展功能使用
+}
+
+//玩家炮台信息
+message WeaponInfo
+{
+	optional int32 iWeaponID = 1;				//玩家当前使用炮台ID
+	optional int32 iWeaponStyleID = 2;			//玩家使用的炮台样式ID
+	repeated int32 iUnlockStyleIDs = 3;			//玩家已使用炮台样式ID
+}
+
+//玩家体验线信息
+message ExpLineInfo
+{
+	optional int32 iExpLineID = 1;				//体验线ID
+	optional int32 iExpLineType = 2;			//体验线类型
+	optional int64 lUserWinNum = 3;				//玩家体验线内收益
+	optional int32 iBulletNum = 4;				//体验线内发射子弹数目
+	optional int64 lUserCostNum = 5;			//玩家体验线内消耗
+}
+
+//玩家主要数据在DB中存储的结构
+message BASEDBINFO
+{
+	optional bytes szNickName = 1;			//玩家的名字
+	repeated int64 iResources = 2;			//玩家的游戏资源，通过数组下标访问,64位
+	optional uint32 uStatus = 3;			//玩家的当前的状态
+	optional int32 iLastLogin = 4;			//玩家上次登录的时间
+	optional int32 iLastLogout = 5;			//玩家上次登出的时间
+	optional int32 iCreateTime = 6;			//玩家帐号创建的时间
+	optional int32 iOnlineTime = 7;			//玩家的总在线时长
+	optional int32 iLoginCount = 8;			//玩家总的游戏登录次数
+	optional int32 iLoginTime = 9;			//玩家本次登录的时间
+	optional int32 iLogoutTime = 10;		//玩家本次登出游戏的时间
+	optional WeaponInfo stWeapon = 11;		//玩家的炮台信息
+	optional int32 iLotteryNum = 13;		//玩家已经抽奖的次数
+	repeated ExpLineInfo stExpLines = 14;	//玩家体验线数据
+	optional int32 iLastScoreUpdate = 15;	//玩家积分上次更新时间
+	optional int64 iDayScore = 16;			//玩家的日积分
+	optional int64 iWeekScore = 17;			//玩家的周积分
+	optional int32 iVIPLevel = 18;			//玩家当前VIP等级
+	optional int64 lVIPExp = 19;			//玩家的VIP经验，升级不清0
+	optional int32 iVIPPriv = 20;			//玩家的VIP特权，每位表示特权
+	optional int32 iNextAlmsTime = 21;		//下次可领取救济金时间，0表示不可领
+	optional int32 iAlmsNum = 22;			//已领取救济金次数
+	optional int32 iLastAlmsUpdateTime = 23;//上次更新救济金信息时间
+	repeated int32 iRechargeLotteryIDs = 24;//玩家充值抽奖记录
+	optional int32 iLoginDays = 25;			//玩家累计登录天数，非连续
+	optional int32 iGetLoginReward = 26;	//登录奖励是否领取过，按位表示
+	optional int32 iRemainNewRedNum = 27;	//玩家剩余新手红包额度，扣除已分配的
+	optional int32 iNowNewRedNum = 28;		//玩家可用新手红包额度
+	optional int32 iMonthEndTime = 29;		//玩家月卡到期时间
+	optional int32 iLastGetMonthTime = 30;	//玩家上次领取月卡礼包时间
+	optional string strChannel = 31;		//玩家所在渠道号
+	optional string strPicID = 32;			//玩家头像ID,http开头的是非系统头像
+	optional bool bUpdateRank = 33;			//是否强制更新排行榜
+	optional bool bGetVIPCoins = 34;		//本次登录是否有VIP金币补足
+	optional int32 iDayOnlineTime = 35;		//当天在线时长，算自然日
+	optional int32 iLastOnlineUpdate = 36;	//最近一次当天在线时长更新时间
+	optional uint32 uFinGuideIndexes = 37;	//已完成新手引导步骤ID,位运算
+	optional bool bNameChanged = 38;		//是否修改过名字
+	optional int64 lUserWinNum = 39;		//玩家实际输赢
+	optional string strSign = 40;			//玩家签名
+}
+
+//任务信息
+message OneQuest
+{
+	optional int32 iQuestID = 1;			//任务的ID
+	optional int32 iQuestType = 2;			//任务类型
+	optional int32 iNeedType = 3;			//完成任务的条件类型
+	optional int64 iNum = 4;				//任务条件达成的数量
+	optional bool bIsFin = 5;				//任务是否已完成
+}
+
+//玩家的任务数据
+message QUESTDBINFO
+{
+	repeated OneQuest stQuestInfos = 1;		//任务信息
+	optional int32 iAdventureEndTime = 2;	//奇遇任务过期时间
+	optional int32 iAdventureNum = 3;		//已接到奇遇任务次数
+	optional int32 iDailyNextUpdateTime = 4;//日常任务下次更新时间
+	optional int32 iAdventNextUpdateTime = 5;//奇遇任务下次刷新时间
+	optional int32 iAdventUserCost = 6;		//奇遇任务阶段玩家总流水
+	optional int32 iAdventShootNum = 7;		//奇遇任务阶段玩家发炮数
+	repeated int32 iGetLiveRewardIDs = 8;	//日常任务已领取活跃度宝箱ID
+}
+
+//背包中单个物品格子的详细信息
+message OneSlotInfo
+{
+	optional int32 iItemID = 1;					//背包中物品的ID
+	optional int32 iItemNum = 2;				//背包中物品的数目
+}
+
+//当前背包中物品格子的详细信息
+message ItemSlotInfo
+{
+	repeated OneSlotInfo stSlots = 1;			//当前背包中物品格子的详细信息
+}
+
+//玩家的仓库背包数据
+message ITEMDBINFO
+{
+	optional ItemSlotInfo stItemSlot = 1;		//当前背包中物品格子的详细信息
+}
+
+//玩家的好友数据
+message FRIENDDBINFO
+{
+
+}
+
+//邮件附件信息
+message MailAppendix
+{
+	optional int32 iType = 1;		//附件类型
+	optional int32 iID = 2;			//附件ID
+	optional int32 iNum = 3;		//附件数量
+}
+
+//邮件详细信息
+message OneMailInfo
+{
+	optional uint32 uUniqID = 1;			//邮件唯一ID
+	optional int32 iMailID = 2;				//邮件配置ID,对应SendMailType
+	optional int32 iSendTime = 3;			//发送时间
+	optional int32 iMailStat = 4;			//邮件状态，对应MailStatType
+	optional bytes strTitle = 5;			//邮件标题
+	repeated bytes strParams = 6;			//邮件参数，根据邮件模板填充
+	repeated MailAppendix stAppendixs = 7;	//邮件附件
+}
+
+//玩家邮件数据
+message MAILDBINFO
+{
+	optional uint32 uSystemMaxID = 1;	//系统邮件当前最大ID
+	optional uint32 uPersonalMaxID = 2;	//个人当前邮件最大ID
+	repeated OneMailInfo stMails = 3;	//邮件详细信息
+}
+
+//离线充值信息
+message PAYOFFLINEDBINFO
+{
+	repeated RechargeRecord stRecords = 1;	//离线充值数据	
+}
+
+//离线增加资源
+message AddResInfo
+{
+	optional int32 iResType = 1;			//离线资源类型
+	optional int32 iAddNum = 2;				//离线增加数量
+}
+
+//离线资源信息
+message RESOFFLINEDBINFO
+{
+	repeated AddResInfo stAddRes = 1;		//离线增加资源
+}
+
+//离线邮件信息
+message MAILOFFLINEDBINFO
+{
+	repeated OneMailInfo stMails = 1;		//离线邮件
+}
+
+//保留BLOB字段1的数据
+//专用于保存离线数据
+message RESERVED1DBINFO
+{
+	optional PAYOFFLINEDBINFO stPayInfo = 1;	//离线充值信息
+	optional RESOFFLINEDBINFO stResInfo = 2;	//离线增加资源
+	optional ItemSlotInfo stItemInfo = 3;		//离线增加物品
+	optional MAILOFFLINEDBINFO stMailInfo = 4;	//离线邮件信息
+}
+
+//兑换订单信息
+message ExchangeOrder
+{
+	optional int32 iExchangeID = 1;		//兑换的ID
+	optional string strOrderID = 2;		//兑换订单号
+	optional string strPhone = 3;		//兑换手机号
+	optional int32 iExchangeTime = 4;	//兑换时间
+	optional int32 iStat = 5;			//兑换状态
+}
+
+//玩家兑换信息
+message ExchangeUser
+{
+	optional string strName = 1;		//玩家姓名
+	optional string strPhone = 2;		//玩家电话
+	optional string strMailNum = 3;		//玩家邮编
+	optional string strAddress = 4;		//玩家地址
+	optional string strRemarks = 5;		//玩家备注
+	optional string strQQNum = 6;		//玩家QQ号
+	optional int32 iLastSetTime = 7;	//上次设置的时间
+	repeated uint32 uiLimitInfo = 8;	//玩家个人兑换限制
+}
+
+//玩家兑换数据
+message EXCHANGEDBINFO
+{
+	optional ExchangeUser stUserInfo = 1;//玩家兑换信息
+	repeated ExchangeOrder stOrders = 6;//兑换订单
+}
+
+//玩家首冲礼包状态
+enum FirstRewardType
+{
+	FIRST_REWARD_NOTOK	= 0;	//首冲礼包不可领取
+	FIRST_REWARD_OK		= 1;	//首冲礼包可领取
+	FIRST_REWARD_GET	= 2;	//首冲礼包已领取
+}
+
+//玩家充值记录
+message RechargeRecord
+{
+	optional int32 iTime = 1;			//充值时间
+	optional int32 iRechargeID = 2;		//充值项目ID
+	optional string strOrderID = 3;		//充值订单号
+}
+
+//玩家充值数据
+message RECHARGEDBINFO
+{
+	optional int32 iFirstRewardStat = 1;	//首冲礼包状态，对应FirstRewardType
+	repeated RechargeRecord stRecords = 2;	//玩家充值记录，保存最近10条
+	repeated int32 iRechargeIDs = 3;		//玩家已充值项目ID，只保存金币
+}
+
+//保留BLOB字段2的数据
+message RESERVED2DBINFO
+{
+	//玩家兑换数据
+	optional EXCHANGEDBINFO stExchangeInfo = 1;	//玩家兑换数据
+
+	//玩家充值数据
+	optional RECHARGEDBINFO stRechargeInfo = 2;	//玩家充值数据
+}
+

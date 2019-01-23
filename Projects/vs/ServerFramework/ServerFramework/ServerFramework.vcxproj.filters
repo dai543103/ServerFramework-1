@@ -1,0 +1,2865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="001_ServerLib">
+      <UniqueIdentifier>{c2e41677-a476-494f-a4d8-649e0f179f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\BaseLibs">
+      <UniqueIdentifier>{967312be-3815-4788-ab79-98f2e4341238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty">
+      <UniqueIdentifier>{7e6a7a64-eccc-4005-bec7-a20e5a7c5315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\botan">
+      <UniqueIdentifier>{84f746cb-b175-4310-bdd1-673663c618ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\gtest">
+      <UniqueIdentifier>{9f92528f-a9eb-4897-a2bd-c3e2ea8a38fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\json-0.5.0">
+      <UniqueIdentifier>{9d258ac3-2b02-42ce-ba77-d69ddd6443eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\json-0.5.0\json">
+      <UniqueIdentifier>{8870dec7-8aa8-4108-850d-55f81cf68d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\lua-5.2.2">
+      <UniqueIdentifier>{dcc1069f-c025-40a9-984e-6d2a55f8e627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\protobuf-2.5.0">
+      <UniqueIdentifier>{07e3a953-9ea3-479c-84cc-0dea1fb91c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\protobuf-2.5.0\google">
+      <UniqueIdentifier>{2d58cd38-d1a6-464b-a3c2-6134c439002b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf">
+      <UniqueIdentifier>{529db88d-c6cd-4f50-8bea-737de57ade78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\pugixml-1.2">
+      <UniqueIdentifier>{75d1fcc6-4a0b-48e7-a6fb-ef0d387ee9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="001_ServerLib\3RdParty\zeromq-3.2.3">
+      <UniqueIdentifier>{88407b36-e8ae-45dc-abf7-9262debc63e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="103_Protocol">
+      <UniqueIdentifier>{e028ac43-06e2-4ee2-b515-eebee799b863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="103_Protocol\Conf">
+      <UniqueIdentifier>{6d91f9cf-3ae9-4ece-aed4-28a3d2ee0f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="103_Protocol\Src">
+      <UniqueIdentifier>{37d17f44-667f-4cd6-bd09-036156884189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="108_WorldServer">
+      <UniqueIdentifier>{e1468230-b82f-4935-bd8c-f67eed03b4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="111_RoleDBServer">
+      <UniqueIdentifier>{fef3cb96-4030-497c-84c9-f00024f4f691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="112_NameDBServer">
+      <UniqueIdentifier>{ea879797-7370-4d19-b514-cb15a72e2d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="113_RegAuthServer">
+      <UniqueIdentifier>{eb3ce561-5f5e-4be6-bb6f-d0f276b987ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="114_RegAuthDBServer">
+      <UniqueIdentifier>{7fd62309-1db2-4e8f-bfbf-ddeb59980fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002_CommLib">
+      <UniqueIdentifier>{50d34371-e678-4103-8ffd-98d1f0ab2442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="113_RegAuthServer\libghttp">
+      <UniqueIdentifier>{09bb1e8c-5e80-4ab9-8761-f8505aead0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="115_RechargeServer">
+      <UniqueIdentifier>{5d3e5f04-f2d2-4ab7-9ec2-0e70a5582f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="116_ExchangeServer">
+      <UniqueIdentifier>{89690eee-af72-4330-b82a-5bfacc83b660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="116_ExchangeServer\libghttp">
+      <UniqueIdentifier>{a881e73d-966a-4331-a148-aaae672ef383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer">
+      <UniqueIdentifier>{b6dd6bce-21a4-427a-a5b0-532a1c8c5023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Chat">
+      <UniqueIdentifier>{8561561e-7a10-4b29-91ca-1784602eb36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Exchange">
+      <UniqueIdentifier>{e8f9e233-9c9d-4af7-a065-35ce8e0f4a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\FishGame">
+      <UniqueIdentifier>{3ab7d51a-96c6-4e71-8f33-1ec154687792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\GM">
+      <UniqueIdentifier>{f77778bd-7743-4890-84da-53a1f970d313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Kernel">
+      <UniqueIdentifier>{65bc5d31-3341-42e7-ab63-d1cca13a53c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Login">
+      <UniqueIdentifier>{11d1cfe8-1b89-42bd-9fad-74ad1c71a4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Lottery">
+      <UniqueIdentifier>{447900f8-ff71-4e96-a26d-ef78545502e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Mail">
+      <UniqueIdentifier>{98b1df5c-5b2c-45b2-95fb-02f4b75090f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Quest">
+      <UniqueIdentifier>{089f3c49-acf0-4cbf-9ca2-fa93f0ec26ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Rank">
+      <UniqueIdentifier>{fef0e0c9-fd0d-4ae8-9916-02d01e496a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Recharge">
+      <UniqueIdentifier>{70b70350-3c08-4b9c-a13e-626a1123623f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\RepThings">
+      <UniqueIdentifier>{68376a48-35c7-4395-ab0a-77dab6e221e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Resource">
+      <UniqueIdentifier>{2eb1c3af-a006-4370-8779-bf10d5a7f32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Reward">
+      <UniqueIdentifier>{0bf7ace1-9f3f-4484-9eff-be5a6c66fe40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\Vip">
+      <UniqueIdentifier>{02752c56-3a54-48a6-83e2-b5cd3020e186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="101_ZoneServer\NewGuide">
+      <UniqueIdentifier>{bc7c1b69-ec93-4665-9b9f-6b6555382226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="117_LogServer">
+      <UniqueIdentifier>{82a7e80b-9191-46fc-abd4-c5c0828e6963}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\AESCbcEncryptor.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\AppUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\BacktraceInfo.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Base64.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\BiDirQueue.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CacheStatistic.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueue.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueueManager.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\CommonDef.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ConfigFile.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\DBClientWrapper.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\DecodeStream.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\EncodeStream.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ErrorDef.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FileUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FreqCtrl.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K32.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K64.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KStr.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KString.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KStringV32.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\HashUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Int64Utility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\lib_md5.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LinearQueue.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LineConfig.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LogAdapter.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LogFile.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\lz4.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\MsgOverViewStatistic.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\MsgStatistic.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\NowTime.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ObjAllocator.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ObjIdxList.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ObjStatistic.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\oi_tea.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\PasswordEncryptionUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\PerformanceStatistic.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ProtoDataUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Random.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SectionConfig.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SessionKeyUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SharedMemory.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ShmObjectCreator.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SignalUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SingletonTemplate.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SocketUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SortAlgorithm.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SortArray.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\StaticIdxList.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Statistic.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\StringSplitter.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\StringUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\SymmetryEncryption.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TCPConnector.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TCPListener.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TempMemoryMng.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\Thread.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TimeUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\TimeValue.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\UDPSocket.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\UinPrivManager.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\UnixTime.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ZmqBus.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\adler32.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\aes.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\alg_id.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\algo_base.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\algo_factory.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\allocate.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\arc4.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_int.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_obj.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_oid.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\asn1_str.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\auto_rng.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\b64_filt.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\base64.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\basefilt.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bcrypt.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\benchmark.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ber_dec.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bigint.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\blinding.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\block_cipher.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\blowfish.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bmw_512.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\botan.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\bswap.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\buf_comp.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\buf_filt.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\build.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\camellia.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cascade.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cast128.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cast256.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cbc.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cbc_mac.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\certstor.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cfb.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\charset.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cmac.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\comb4p.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cpuid.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\crc24.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\crc32.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\crl_ent.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cryptobox.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ctr.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\cts.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\curve_gfp.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\data_snk.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\data_src.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\datastor.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\der_enc.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\des.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\desx.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dh.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\divide.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dl_algo.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dl_group.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dlies.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dsa.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\dyn_engine.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eax.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ec_group.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecb.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecc_key.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecdh.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ecdsa.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\elgamal.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eme.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eme_pkcs.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\eme1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa_raw.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa1_bsi.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa3.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\emsa4.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\engine.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\entropy_src.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\exceptn.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\fd_unix.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\filter.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\filters.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\fpe_fe1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\get_byte.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\get_pbe.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\global_state.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\gost_3410.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\gost_3411.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\gost_28147.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\has160.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hash.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hash_id.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hex.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hex_filt.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hmac.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\hmac_rng.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\idea.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\idea_sse2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\if_algo.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\init.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kasumi.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kdf.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kdf1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\kdf2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\keccak.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\key_filt.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\key_spec.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\keypair.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\libstate.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\lion.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\loadstor.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\look_pk.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\lookup.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\lubyrack.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mac.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mars.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\md2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\md4.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\md5.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mdx_hash.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mem_ops.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mgf1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\misty1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mode_pad.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\mp_types.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\noekeon.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\noekeon_simd.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\nr.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\numthry.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ofb.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\oids.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\openpgp.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\package.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\par_hash.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\parsing.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\passhash9.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbe.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbes1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbes2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbkdf.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbkdf1.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pbkdf2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pem.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pgp_s2k.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pipe.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pk_filts.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pk_keys.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pk_ops.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pkcs8.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pkcs10.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\point_gfp.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pow_mod.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\prf_ssl3.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\prf_tls.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\prf_x942.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pubkey.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\pubkey_enums.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\randpool.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rc2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rc5.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rc6.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\reducer.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rfc3394.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rmd128.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rmd160.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rng.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rotate.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rsa.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\rw.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\safer_sk.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\salsa20.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\scan_name.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\secmem.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\secqueue.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\seed.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\selftest.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\serp_simd.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\serpent.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha1_sse2.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha1_x86_64.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha2_32.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha2_64.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sha160.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\skein_512.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\skipjack.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\square.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\srp6.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ssl3_mac.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\stream_cipher.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\sym_algo.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\symkey.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tea.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tiger.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\time.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_client.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_connection.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_exceptn.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_magic.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_policy.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_record.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_server.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_session_key.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tls_suites.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\tss.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\turing.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\twofish.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\types.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\ui.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\version.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\whrlpool.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\wid_wake.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_ca.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_crl.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_dn.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_ext.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_key.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509_obj.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509cert.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509self.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x509stor.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x919_mac.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\x931_rng.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\xtea.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\xtea_simd.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\botan-1.10.5\botan\xts.h">
+      <Filter>001_ServerLib\3RdParty\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest_pred_impl.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest_prod.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-death-test.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-message.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-param-test.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-printers.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-spi.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-test-part.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-typed-test.h">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\autolink.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\config.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\features.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\forwards.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\json.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\reader.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\value.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\json-0.5.0\json\writer.h">
+      <Filter>001_ServerLib\3RdParty\json-0.5.0\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lapi.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lauxlib.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lcode.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lctype.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ldebug.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ldo.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lfunc.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lgc.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\llex.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\llimits.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lmem.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lobject.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lopcodes.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lparser.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lstate.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lstring.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ltable.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\ltm.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lua.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\luaconf.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lualib.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lundump.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lvm.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\lzio.h">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\descriptor.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\descriptor.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\descriptor_database.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\dynamic_message.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\extension_set.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\generated_enum_reflection.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\generated_message_reflection.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\generated_message_util.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\message.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\message_lite.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\package_info.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\reflection_ops.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\repeated_field.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\service.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\test_util.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\test_util_lite.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\text_format.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_custom_options.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_embed_optimize_for.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_empty.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import_lite.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import_public.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_import_public_lite.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_lite.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_lite_imports_nonlite.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_mset.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_no_generic_services.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unittest_optimize_for.pb.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\unknown_field_set.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\wire_format.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\wire_format_lite.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf\wire_format_lite_inl.h">
+      <Filter>001_ServerLib\3RdParty\protobuf-2.5.0\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\pugixml-1.2\pugiconfig.hpp">
+      <Filter>001_ServerLib\3RdParty\pugixml-1.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\pugixml-1.2\pugixml.hpp">
+      <Filter>001_ServerLib\3RdParty\pugixml-1.2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\zeromq-3.2.3\zmq.h">
+      <Filter>001_ServerLib\3RdParty\zeromq-3.2.3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\3RdParty\zeromq-3.2.3\zmq_utils.h">
+      <Filter>001_ServerLib\3RdParty\zeromq-3.2.3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol.hpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_Account.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_Common.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_CS.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_MsgID.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_RegAuth.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_USERDB.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_World.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\103_Protocol\Src\GameProtocol_Zone.pb.h">
+      <Filter>103_Protocol\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\AddRegAuthHandler.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\AppDef.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\ConfigManager.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\DeleteRegAuthHandler.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\FetchRegAuthHandler.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBApp.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBHandlerSet.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\LRUHashCache.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FixedCache.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\FixedHashCache.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\MathUtility.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\AppDefW.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\AppLoopW.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\AppTick.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\ChatHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\ConfigManager.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\CreateRoleAccountHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\DeleteRoleAccountHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\ExchangeWorldHandler.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\FetchRoleWorldHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\GameMasterHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\Handler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\HandlerFactory.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\KickRoleWorldHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\LasvegasWorldHandler.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\ListRoleAccountHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\ListZoneHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\LogoutHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\MailWorldHandler.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\ModuleHelper.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\OnlineStatHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\RankInfoWorldHandler.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\RechargeWorldHandler.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\UnitTick.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\UpdateRoleWorldHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldExchangeLimitManager.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldLasvegasManager.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldMsgHelper.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldNameHandler.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldObjectAllocatorW.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldObjectHelperW_K32.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldObjectHelperW_K64.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldOnlineStatTick.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldProtocolEngineW.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldRankInfoManager.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldRoleStatus.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\ZoneTick.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\ThreadLogManager.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBProtocolEngine.hpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\AppThread.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\AppThreadManager.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\BaseConfigManager.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\CommDefine.h">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\DBConfigManager.h">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\ErrorNumDef.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\ServerBusConfigManager.h">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\ServerBusManager.h">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\AppDef.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\ConfigManager.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBApp.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBCreateRoleHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBDeleteRoleHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBFetchRoleHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBGMHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBHandlerSet.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBListRoleHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBProtocolEngine.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBRechargeHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBUpdateRoleHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\SeqConverter.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\112_NameDBServer\AddNameHandler.hpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\112_NameDBServer\AppDef.hpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\112_NameDBServer\ConfigManager.hpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\112_NameDBServer\DeleteNameHandler.hpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\112_NameDBServer\NameDBApp.hpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\112_NameDBServer\NameDBHandlerSet.hpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\112_NameDBServer\NameDBProtocolEngine.hpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\MsgHandlerSet.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\AuthAccountHandler.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\CacheTime.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\ClientClosedHandler.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\ConfigManager.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthApp.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthDBAddHandler.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthDBFetchHandler.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthHandlerSet.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthProtocolEngine.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthPublic.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegisterAccountHandler.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\SessionManager.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\SessionObj.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\ProtocolEngine.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\MsgHandler.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthMsgProcessor.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\PlatformAuthHandler.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\PlatformProxy.h">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\MainPlatformProxy.h">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\YmnPlatformProxy.h">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\114_RegAuthDBServer\AuthAccountHandler.h">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\ghttp.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\ghttp_constants.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_base64.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_date.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_global.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_hdrs.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_req.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_resp.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_trans.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\libghttp\http_uri.h">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\EpollWrapper.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ExternalClientPool.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\FDPool.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\IOHandler.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\OverloadSafeguard.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\SocketOperator.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\Statistic.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\AppDefine.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ConfigManager.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ServerListener.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\ServerStatistic.hpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\RechargeProxy.h">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\YmnRechargeProxy.h">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\111_RoleDBServer\RoleDBMailHandler.hpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldMailManager.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\001_ServerLib\BaseLibs\URLCoder.hpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\OrderManager.h">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\CacheTime.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ConfigManager.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeApp.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeHandlerSet.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeMsgProcessor.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangeProtocolEngine.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\ExchangePublic.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\OnlineExchangeHandler.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\ghttp.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\ghttp_constants.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_base64.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_date.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_global.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_hdrs.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_req.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_resp.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_trans.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\libghttp\http_uri.h">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Chat\ChatHandler.hpp">
+      <Filter>101_ZoneServer\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Chat\ChatUtility.h">
+      <Filter>101_ZoneServer\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeHandler.h">
+      <Filter>101_ZoneServer\Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeManager.h">
+      <Filter>101_ZoneServer\Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishAlgorithm.h">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishpondHandler.h">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishpondManager.h">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishpondObj.h">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\FishGame\FishUtility.h">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GameMasterHandler.hpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMBaseCommand.hpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMHorseLampCommand.hpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMMailCommand.hpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMReposityCommand.hpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\GM\GMResourceCommand.hpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\AppDef.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\AppLoop.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\AppTick.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ConfigManager.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\FetchRoleWorldHandler.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameEventManager.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameObjCommDef.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameProtocolEngine.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameRole.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameSession.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GameUnitID.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\GMPrivConfigManager.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\Handler.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\HandlerFactory.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\HandlerHelper.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\HandlerList.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ModuleHelper.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\OnlineStatTick.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\SessionManager.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\UnitUtility.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\UpdateRoleInfoHandler.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneMsgHelper.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneObjectAllocator.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneObjectHelper.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Kernel\ZoneOssLog.hpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Login\KickRoleWorldHandler.hpp">
+      <Filter>101_ZoneServer\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Login\LoginHandler.hpp">
+      <Filter>101_ZoneServer\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Login\LogoutHandler.hpp">
+      <Filter>101_ZoneServer\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Lottery\LasvegasManager.h">
+      <Filter>101_ZoneServer\Lottery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Lottery\LotteryHandler.h">
+      <Filter>101_ZoneServer\Lottery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Mail\MailHandler.h">
+      <Filter>101_ZoneServer\Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Mail\MailManager.h">
+      <Filter>101_ZoneServer\Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Mail\MailUtility.h">
+      <Filter>101_ZoneServer\Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Quest\QuestHandler.h">
+      <Filter>101_ZoneServer\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Quest\QuestManager.h">
+      <Filter>101_ZoneServer\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Quest\QuestUtility.h">
+      <Filter>101_ZoneServer\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Rank\RankInfoHandler.h">
+      <Filter>101_ZoneServer\Rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Rank\RankInfoManager.h">
+      <Filter>101_ZoneServer\Rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Recharge\RechargeHandler.h">
+      <Filter>101_ZoneServer\Recharge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Recharge\RechargeManager.h">
+      <Filter>101_ZoneServer\Recharge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Recharge\RechargeUtility.h">
+      <Filter>101_ZoneServer\Recharge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsHandler.hpp">
+      <Filter>101_ZoneServer\RepThings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsManager.hpp">
+      <Filter>101_ZoneServer\RepThings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsUtility.hpp">
+      <Filter>101_ZoneServer\RepThings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Resource\ResourceUtility.h">
+      <Filter>101_ZoneServer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Reward\RewardHandler.h">
+      <Filter>101_ZoneServer\Reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Reward\RewardUtility.h">
+      <Filter>101_ZoneServer\Reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Vip\VipPrivHandler.h">
+      <Filter>101_ZoneServer\Vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\Vip\VipUtility.h">
+      <Filter>101_ZoneServer\Vip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\113_RegAuthServer\RegAuthOssLog.hpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldOssLog.hpp">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\101_ZoneServer\NewGuide\NewGuideHandler.h">
+      <Filter>101_ZoneServer\NewGuide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\WorldLimitLotteryManager.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\108_WorldServer\LimitLotteryWorldHandler.h">
+      <Filter>108_WorldServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\115_RechargeServer\WechatRechargeProxy.h">
+      <Filter>115_RechargeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\002_CommLib\MaskWordConfig.hpp">
+      <Filter>002_CommLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\AppDef.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\ConfigManager.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\LogServerApp.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\LogServerHandlerSet.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\LogServerProtocolEngine.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\LogTargetProxy.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\MofangLogProxy.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\TapDBLogProxy.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\117_LogServer\WriteLogHandler.hpp">
+      <Filter>117_LogServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\116_ExchangeServer\GetCardNoHandler.hpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\001_ServerLib\BaseLibs\ChangeLog.txt">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </Text>
+    <Text Include="..\..\..\..\103_Protocol\CMakeLists.txt">
+      <Filter>103_Protocol</Filter>
+    </Text>
+    <Text Include="..\..\..\..\103_Protocol\Conf\readme.txt">
+      <Filter>103_Protocol\Conf</Filter>
+    </Text>
+    <Text Include="..\..\..\..\103_Protocol\Src\CMakeLists.txt">
+      <Filter>103_Protocol\Src</Filter>
+    </Text>
+    <Text Include="..\..\..\..\114_RegAuthDBServer\CMakeLists.txt">
+      <Filter>114_RegAuthDBServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\001_ServerLib\CMakeLists.txt">
+      <Filter>001_ServerLib</Filter>
+    </Text>
+    <Text Include="..\..\..\..\108_WorldServer\CMakeLists.txt">
+      <Filter>108_WorldServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\002_CommLib\CMakeLists.txt">
+      <Filter>002_CommLib</Filter>
+    </Text>
+    <Text Include="..\..\..\..\111_RoleDBServer\CMakeLists.txt">
+      <Filter>111_RoleDBServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\112_NameDBServer\CMakeLists.txt">
+      <Filter>112_NameDBServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\113_RegAuthServer\CMakeLists.txt">
+      <Filter>113_RegAuthServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\115_RechargeServer\CMakeLists.txt">
+      <Filter>115_RechargeServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\116_ExchangeServer\CMakeLists.txt">
+      <Filter>116_ExchangeServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\101_ZoneServer\CMakeLists.txt">
+      <Filter>101_ZoneServer</Filter>
+    </Text>
+    <Text Include="..\..\..\..\117_LogServer\CMakeLists.txt">
+      <Filter>117_LogServer</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\001_ServerLib\3RdParty\lua-5.2.2\liblua.a">
+      <Filter>001_ServerLib\3RdParty\lua-5.2.2</Filter>
+    </Library>
+    <Library Include="..\..\..\..\001_ServerLib\3RdParty\pugixml-1.2\libpugixml.a">
+      <Filter>001_ServerLib\3RdParty\pugixml-1.2</Filter>
+    </Library>
+    <Library Include="..\..\..\..\001_ServerLib\3RdParty\zeromq-3.2.3\libzmq.a">
+      <Filter>001_ServerLib\3RdParty\zeromq-3.2.3</Filter>
+    </Library>
+    <Library Include="..\..\..\..\001_ServerLib\BaseLibs\libServerLib.a">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </Library>
+    <Library Include="..\..\..\..\001_ServerLib\BaseLibs\libServerLibMT.a">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\001_ServerLib\3RdParty\gtest-1.6.0\gtest\gtest-param-test.h.pump">
+      <Filter>001_ServerLib\3RdParty\gtest</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\BuildProtocol.bat">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\BuildProtocol.sh">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_Account.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_Common.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_CS.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_MsgID.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_RegAuth.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_USERDB.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_World.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\GameProtocol_Zone.proto">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\protoc">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+    <None Include="..\..\..\..\103_Protocol\Conf\protoc.exe">
+      <Filter>103_Protocol\Conf</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_Account.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_Common.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_CS.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_MsgID.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_RegAuth.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_USERDB.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_World.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\103_Protocol\Src\GameProtocol_Zone.pb.cpp">
+      <Filter>103_Protocol\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\AddRegAuthHandler.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\AppLauncher.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\ConfigManager.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\DeleteRegAuthHandler.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\FetchRegAuthHandler.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBApp.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBHandlerSet.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\AESCbcEncryptor.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\AppUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\BacktraceInfo.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Base64.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\BiDirQueue.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\CacheStatistic.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueue.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\CodeQueueManager.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ConfigFile.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\DBClientWrapper.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\DecodeStream.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\EncodeStream.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\FileUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K32.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_K64.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashMap_KStringV32.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\HashUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\lib_md5.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\LineConfig.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\LogAdapter.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\LogFile.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\lz4.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\MsgOverViewStatistic.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\MsgStatistic.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\NowTime.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ObjAllocator.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ObjIdxList.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ObjStatistic.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\oi_tea.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\PasswordEncryptionUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\PerformanceStatistic.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Random.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SectionConfig.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SessionKeyUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SharedMemory.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SignalUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SocketUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SortArray.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Statistic.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\StringSplitter.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\StringUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\SymmetryEncryption.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TCPConnector.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TCPListener.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TempMemoryMng.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\Thread.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TimeUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\TimeValue.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\UDPSocket.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\UinPrivManager.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\UnixTime.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ZmqBus.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\MathUtility.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\AppLoopW.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\AppTick.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\ChatHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\ConfigManager.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\CreateRoleAccountHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\DeleteRoleAccountHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\ExchangeWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\FetchRoleWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\GameMasterHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\Handler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\HandlerFactory.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\KickRoleWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\LasvegasWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\ListRoleAccountHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\ListZoneHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\LogoutHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\MailWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\MainApp.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\ModuleHelper.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\OnlineStatHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\RankInfoWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\RechargeWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\UnitTick.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\UpdateRoleWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldExchangeLimitManager.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldLasvegasManager.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldMsgHelper.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldNameHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldObjectAllocatorW.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldOnlineStatTick.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldProtocolEngineW.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldRankInfoManager.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldRoleStatus.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\ZoneTick.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\001_ServerLib\BaseLibs\ThreadLogManager.cpp">
+      <Filter>001_ServerLib\BaseLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\RegAuthDBProtocolEngine.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\AppThread.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\AppThreadManager.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\BaseConfigManager.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\DBConfigManager.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\ServerBusConfigManager.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\ServerBusManager.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\AppLauncher.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\ConfigManager.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBApp.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBCreateRoleHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBDeleteRoleHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBFetchRoleHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBGMHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBHandlerSet.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBListRoleHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBProtocolEngine.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBRechargeHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBUpdateRoleHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\SeqConverter.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\112_NameDBServer\AddNameHandler.cpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\112_NameDBServer\AppLauncher.cpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\112_NameDBServer\ConfigManager.cpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\112_NameDBServer\DeleteNameHandler.cpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\112_NameDBServer\NameDBApp.cpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\112_NameDBServer\NameDBHandlerSet.cpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\112_NameDBServer\NameDBProtocolEngine.cpp">
+      <Filter>112_NameDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\MsgHandlerSet.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\AppLauncher.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\AuthAccountHandler.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\CacheTime.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\ClientClosedHandler.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\ConfigManager.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthApp.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthDBAddHandler.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthDBFetchHandler.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthHandlerSet.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthProtocolEngine.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegisterAccountHandler.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\SessionManager.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\SessionObj.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\MsgHandler.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthMsgProcessor.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\PlatformAuthHandler.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\MainPlatformProxy.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\YmnPlatformProxy.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\114_RegAuthDBServer\AuthAccountHandler.cpp">
+      <Filter>114_RegAuthDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\ghttp.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_base64.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_date.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_hdrs.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_req.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_resp.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_trans.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\libghttp\http_uri.c">
+      <Filter>113_RegAuthServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\EpollWrapper.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ExternalClientPool.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\FDPool.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\IOHandler.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\MainApp.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\OverloadSafeguard.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\SocketOperator.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\Statistic.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ConfigManager.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ServerListener.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\ServerStatistic.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\YmnRechargeProxy.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\RechargeProxy.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\111_RoleDBServer\RoleDBMailHandler.cpp">
+      <Filter>111_RoleDBServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldMailManager.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\OrderManager.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\AppLauncher.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\CacheTime.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ConfigManager.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeApp.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeHandlerSet.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeMsgProcessor.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\ExchangeProtocolEngine.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\OnlineExchangeHandler.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\ghttp.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_base64.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_date.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_hdrs.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_req.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_resp.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_trans.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\libghttp\http_uri.c">
+      <Filter>116_ExchangeServer\libghttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Chat\ChatHandler.cpp">
+      <Filter>101_ZoneServer\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Chat\ChatUtility.cpp">
+      <Filter>101_ZoneServer\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeHandler.cpp">
+      <Filter>101_ZoneServer\Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Exchange\ExchangeManager.cpp">
+      <Filter>101_ZoneServer\Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishAlgorithm.cpp">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishpondHandler.cpp">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishpondManager.cpp">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishpondObj.cpp">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\FishGame\FishUtility.cpp">
+      <Filter>101_ZoneServer\FishGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GameMasterHandler.cpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMBaseCommand.cpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMHorseLampCommand.cpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMMailCommand.cpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMReposityCommand.cpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\GM\GMResourceCommand.cpp">
+      <Filter>101_ZoneServer\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\AppLauncher.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\AppLoop.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\AppTick.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ConfigManager.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\FetchRoleWorldHandler.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameEventManager.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameProtocolEngine.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameRole.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameSession.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GameUnitID.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\GMPrivConfigManager.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\Handler.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\HandlerFactory.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\HandlerHelper.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\HandlerList.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ModuleHelper.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\OnlineStatTick.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\SessionManager.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\UnitUtility.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\UpdateRoleInfoHandler.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ZoneMsgHelper.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ZoneObjectAllocator.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Kernel\ZoneOssLog.cpp">
+      <Filter>101_ZoneServer\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Login\KickRoleWorldHandler.cpp">
+      <Filter>101_ZoneServer\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Login\LoginHandler.cpp">
+      <Filter>101_ZoneServer\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Login\LogoutHandler.cpp">
+      <Filter>101_ZoneServer\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Lottery\LasvegasManager.cpp">
+      <Filter>101_ZoneServer\Lottery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Lottery\LotteryHandler.cpp">
+      <Filter>101_ZoneServer\Lottery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Mail\MailHandler.cpp">
+      <Filter>101_ZoneServer\Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Mail\MailManager.cpp">
+      <Filter>101_ZoneServer\Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Mail\MailUtility.cpp">
+      <Filter>101_ZoneServer\Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Quest\QuestHandler.cpp">
+      <Filter>101_ZoneServer\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Quest\QuestManager.cpp">
+      <Filter>101_ZoneServer\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Quest\QuestUtility.cpp">
+      <Filter>101_ZoneServer\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Rank\RankInfoHandler.cpp">
+      <Filter>101_ZoneServer\Rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Rank\RankInfoManager.cpp">
+      <Filter>101_ZoneServer\Rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Recharge\RechargeHandler.cpp">
+      <Filter>101_ZoneServer\Recharge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Recharge\RechargeManager.cpp">
+      <Filter>101_ZoneServer\Recharge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Recharge\RechargeUtility.cpp">
+      <Filter>101_ZoneServer\Recharge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsHandler.cpp">
+      <Filter>101_ZoneServer\RepThings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsManager.cpp">
+      <Filter>101_ZoneServer\RepThings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\RepThings\RepThingsUtility.cpp">
+      <Filter>101_ZoneServer\RepThings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Resource\ResourceUtility.cpp">
+      <Filter>101_ZoneServer\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Reward\RewardHandler.cpp">
+      <Filter>101_ZoneServer\Reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Reward\RewardUtility.cpp">
+      <Filter>101_ZoneServer\Reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Vip\VipPrivHandler.cpp">
+      <Filter>101_ZoneServer\Vip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\Vip\VipUtility.cpp">
+      <Filter>101_ZoneServer\Vip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\113_RegAuthServer\RegAuthOssLog.cpp">
+      <Filter>113_RegAuthServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldOssLog.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\101_ZoneServer\NewGuide\NewGuideHandler.cpp">
+      <Filter>101_ZoneServer\NewGuide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\WorldLimitLotteryManager.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\108_WorldServer\LimitLotteryWorldHandler.cpp">
+      <Filter>108_WorldServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\115_RechargeServer\WechatRechargeProxy.cpp">
+      <Filter>115_RechargeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\002_CommLib\MaskWordConfig.cpp">
+      <Filter>002_CommLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\AppLauncher.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\ConfigManager.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\LogServerApp.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\LogServerHandlerSet.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\LogServerProtocolEngine.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\MofangLogProxy.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\TapDBLogProxy.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\117_LogServer\WriteLogHandler.cpp">
+      <Filter>117_LogServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\116_ExchangeServer\GetCardNoHandler.cpp">
+      <Filter>116_ExchangeServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1, 
+    "Type_i": 1, 
+    "Condition1_i": 1000000, 
+    "Condition2_i": 100, 
+    "Condition3_i": 0, 
+    "Scroll_i": 1
+  }, 
+  {
+    "Id": 2, 
+    "Type_i": 2, 
+    "Condition1_i": 5000, 
+    "Condition2_i": 0, 
+    "Condition3_i": 0, 
+    "Scroll_i": 1
+  }, 
+  {
+    "Id": 3, 
+    "Type_i": 3, 
+    "Condition1_i": 9, 
+    "Condition2_i": 0, 
+    "Condition3_i": 0, 
+    "Scroll_i": 1
+  }, 
+  {
+    "Id": 99, 
+    "Type_i": 99, 
+    "Condition1_i": 0, 
+    "Condition2_i": 0, 
+    "Condition3_i": 0, 
+    "Scroll_i": 1
+  }, 
+  {
+    "Id": 4, 
+    "Type_i": 4, 
+    "Condition1_i": 0, 
+    "Condition2_i": 0, 
+    "Condition3_i": 0, 
+    "Scroll_i": 1
+  }
+]

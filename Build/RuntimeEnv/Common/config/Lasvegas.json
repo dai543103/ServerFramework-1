@@ -1,0 +1,380 @@
+[
+  {
+    "Id": 1, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 2, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 3, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 4, 
+    "Number_i": 6, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 5, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 6, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 7, 
+    "Number_i": 12, 
+    "Min_i": 10000, 
+    "Max_i": 400000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 8, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 9, 
+    "Number_i": 6, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 10, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 11, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 12, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 13, 
+    "Number_i": 25, 
+    "Min_i": 10000, 
+    "Max_i": 400000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 14, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 15, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 16, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 17, 
+    "Number_i": 6, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 18, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 19, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 20, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 21, 
+    "Number_i": 12, 
+    "Min_i": 10000, 
+    "Max_i": 400000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 22, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 23, 
+    "Number_i": 6, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 24, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 25, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 26, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 27, 
+    "Number_i": 40, 
+    "Min_i": 10000, 
+    "Max_i": 200000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 28, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 29, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 30, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 31, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 32, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 33, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 34, 
+    "Number_i": 12, 
+    "Min_i": 10000, 
+    "Max_i": 400000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 35, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 36, 
+    "Number_i": 6, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 37, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 38, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 39, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 40, 
+    "Number_i": 25, 
+    "Min_i": 10000, 
+    "Max_i": 400000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 41, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 42, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 43, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 44, 
+    "Number_i": 6, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 45, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 46, 
+    "Number_i": 12, 
+    "Min_i": 10000, 
+    "Max_i": 400000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 47, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 48, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 49, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 50, 
+    "Number_i": 6, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 51, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 52, 
+    "Number_i": 3, 
+    "Min_i": 10000, 
+    "Max_i": 1000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 53, 
+    "Number_i": 1, 
+    "Min_i": 10000, 
+    "Max_i": 2000000, 
+    "Probability_i": 1
+  }, 
+  {
+    "Id": 54, 
+    "Number_i": 50, 
+    "Min_i": 10000, 
+    "Max_i": 200000, 
+    "Probability_i": 1
+  }
+]

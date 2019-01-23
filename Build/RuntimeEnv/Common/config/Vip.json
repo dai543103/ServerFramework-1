@@ -1,0 +1,515 @@
+[
+  {
+    "Id": 1, 
+    "Viplevel_i": 1, 
+    "Experience_i": 60, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 5000
+  }, 
+  {
+    "Id": 2, 
+    "Viplevel_i": 1, 
+    "Experience_i": 60, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 3, 
+    "Viplevel_i": 1, 
+    "Experience_i": 60, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 4, 
+    "Viplevel_i": 2, 
+    "Experience_i": 300, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 7000
+  }, 
+  {
+    "Id": 5, 
+    "Viplevel_i": 2, 
+    "Experience_i": 300, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20100, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 6, 
+    "Viplevel_i": 2, 
+    "Experience_i": 300, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 7, 
+    "Viplevel_i": 2, 
+    "Experience_i": 300, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 8, 
+    "Viplevel_i": 3, 
+    "Experience_i": 1000, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 10000
+  }, 
+  {
+    "Id": 9, 
+    "Viplevel_i": 3, 
+    "Experience_i": 1000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20101, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 10, 
+    "Viplevel_i": 3, 
+    "Experience_i": 1000, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 11, 
+    "Viplevel_i": 3, 
+    "Experience_i": 1000, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 12, 
+    "Viplevel_i": 3, 
+    "Experience_i": 1000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 40003, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 13, 
+    "Viplevel_i": 4, 
+    "Experience_i": 5000, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 15000
+  }, 
+  {
+    "Id": 14, 
+    "Viplevel_i": 4, 
+    "Experience_i": 5000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20102, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 15, 
+    "Viplevel_i": 4, 
+    "Experience_i": 5000, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 16, 
+    "Viplevel_i": 4, 
+    "Experience_i": 5000, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 17, 
+    "Viplevel_i": 4, 
+    "Experience_i": 5000, 
+    "Contentid_i": 32, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 0
+  }, 
+  {
+    "Id": 18, 
+    "Viplevel_i": 5, 
+    "Experience_i": 10000, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 20000
+  }, 
+  {
+    "Id": 19, 
+    "Viplevel_i": 5, 
+    "Experience_i": 10000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20103, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 20, 
+    "Viplevel_i": 5, 
+    "Experience_i": 10000, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 21, 
+    "Viplevel_i": 5, 
+    "Experience_i": 10000, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 22, 
+    "Viplevel_i": 5, 
+    "Experience_i": 10000, 
+    "Contentid_i": 16, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 50000
+  }, 
+  {
+    "Id": 23, 
+    "Viplevel_i": 5, 
+    "Experience_i": 10000, 
+    "Contentid_i": 32, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 0
+  }, 
+  {
+    "Id": 24, 
+    "Viplevel_i": 5, 
+    "Experience_i": 10000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 40004, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 25, 
+    "Viplevel_i": 6, 
+    "Experience_i": 40000, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 30000
+  }, 
+  {
+    "Id": 26, 
+    "Viplevel_i": 6, 
+    "Experience_i": 40000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20104, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 27, 
+    "Viplevel_i": 6, 
+    "Experience_i": 40000, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 28, 
+    "Viplevel_i": 6, 
+    "Experience_i": 40000, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 2
+  }, 
+  {
+    "Id": 29, 
+    "Viplevel_i": 6, 
+    "Experience_i": 40000, 
+    "Contentid_i": 16, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 100000
+  }, 
+  {
+    "Id": 30, 
+    "Viplevel_i": 6, 
+    "Experience_i": 40000, 
+    "Contentid_i": 32, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 0
+  }, 
+  {
+    "Id": 31, 
+    "Viplevel_i": 7, 
+    "Experience_i": 100000, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 50000
+  }, 
+  {
+    "Id": 32, 
+    "Viplevel_i": 7, 
+    "Experience_i": 100000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20105, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 33, 
+    "Viplevel_i": 7, 
+    "Experience_i": 100000, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 34, 
+    "Viplevel_i": 7, 
+    "Experience_i": 100000, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 2
+  }, 
+  {
+    "Id": 35, 
+    "Viplevel_i": 7, 
+    "Experience_i": 100000, 
+    "Contentid_i": 16, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 200000
+  }, 
+  {
+    "Id": 36, 
+    "Viplevel_i": 7, 
+    "Experience_i": 100000, 
+    "Contentid_i": 32, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 0
+  }, 
+  {
+    "Id": 37, 
+    "Viplevel_i": 7, 
+    "Experience_i": 100000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 40005, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 38, 
+    "Viplevel_i": 8, 
+    "Experience_i": 250000, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 80000
+  }, 
+  {
+    "Id": 39, 
+    "Viplevel_i": 8, 
+    "Experience_i": 250000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20106, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 40, 
+    "Viplevel_i": 8, 
+    "Experience_i": 250000, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 41, 
+    "Viplevel_i": 8, 
+    "Experience_i": 250000, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 3
+  }, 
+  {
+    "Id": 42, 
+    "Viplevel_i": 8, 
+    "Experience_i": 250000, 
+    "Contentid_i": 16, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 500000
+  }, 
+  {
+    "Id": 43, 
+    "Viplevel_i": 8, 
+    "Experience_i": 250000, 
+    "Contentid_i": 32, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 0
+  }, 
+  {
+    "Id": 44, 
+    "Viplevel_i": 9, 
+    "Experience_i": 500000, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 120000
+  }, 
+  {
+    "Id": 45, 
+    "Viplevel_i": 9, 
+    "Experience_i": 500000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20107, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 46, 
+    "Viplevel_i": 9, 
+    "Experience_i": 500000, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 47, 
+    "Viplevel_i": 9, 
+    "Experience_i": 500000, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 3
+  }, 
+  {
+    "Id": 48, 
+    "Viplevel_i": 9, 
+    "Experience_i": 500000, 
+    "Contentid_i": 16, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 1000000
+  }, 
+  {
+    "Id": 49, 
+    "Viplevel_i": 9, 
+    "Experience_i": 500000, 
+    "Contentid_i": 32, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 0
+  }, 
+  {
+    "Id": 50, 
+    "Viplevel_i": 9, 
+    "Experience_i": 500000, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 40006, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 51, 
+    "Viplevel_i": 10, 
+    "Experience_i": 0, 
+    "Contentid_i": 1, 
+    "Variable1_i": 180, 
+    "Variable2_i": 2, 
+    "Variable3_i": 160000
+  }, 
+  {
+    "Id": 52, 
+    "Viplevel_i": 10, 
+    "Experience_i": 0, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 20108, 
+    "Variable3_i": 1
+  }, 
+  {
+    "Id": 53, 
+    "Viplevel_i": 10, 
+    "Experience_i": 0, 
+    "Contentid_i": 4, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 99
+  }, 
+  {
+    "Id": 54, 
+    "Viplevel_i": 10, 
+    "Experience_i": 0, 
+    "Contentid_i": 8, 
+    "Variable1_i": 60, 
+    "Variable2_i": 0, 
+    "Variable3_i": 3
+  }, 
+  {
+    "Id": 55, 
+    "Viplevel_i": 10, 
+    "Experience_i": 0, 
+    "Contentid_i": 16, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 2000000
+  }, 
+  {
+    "Id": 56, 
+    "Viplevel_i": 10, 
+    "Experience_i": 0, 
+    "Contentid_i": 32, 
+    "Variable1_i": 0, 
+    "Variable2_i": 0, 
+    "Variable3_i": 0
+  }, 
+  {
+    "Id": 57, 
+    "Viplevel_i": 10, 
+    "Experience_i": 0, 
+    "Contentid_i": 2, 
+    "Variable1_i": 2, 
+    "Variable2_i": 40007, 
+    "Variable3_i": 1
+  }
+]

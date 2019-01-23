@@ -1,0 +1,932 @@
+//区服务器的相关协议
+
+
+import "GameProtocol_Common.proto";
+import "GameProtocol_USERDB.proto";
+
+enum ReqOperaType
+{
+	REQ_OPERA_TYPE_INVALID	= 0;	//非法的背包操作类型
+	REQ_OPERA_TYPE_OPEN		= 1;	//背包开宝箱
+	REQ_OPERA_TYPE_USE		= 2;	//背包物品的使用
+	REQ_OPERA_TYPE_SENDGIFT	= 3;	//背包物品赠送
+	REQ_OPERA_TYPE_STYLE	= 4;	//背包解锁炮台样式
+	REQ_OPERA_TYPE_MONTH	= 5;	//背包使用月卡道具
+}
+
+//GM操作类型
+enum GMOperaType
+{
+	GM_OPERA_INVALID		= 0;	//非法的GM操作
+	GM_OPERA_ADDRES			= 1;	//GM修改玩家资源
+	GM_OPERA_ADDITEM		= 2;	//GM修改玩家道具
+	GM_OPERA_HORSELAMP		= 3;	//GM发送走马灯
+	GM_OPERA_SENDMAIL		= 4;	//GM发送邮件
+	GM_OPERA_RECHARGE		= 5;	//GM充值
+	GM_OPERA_GETBASEINFO	= 6;	//GM获取玩家基础数据
+	GM_OPERA_GETREPINFO		= 7;	//GM获取玩家背包数据
+	GM_OPERA_DELMAIL		= 8;	//GM删除系统邮件
+	GM_OPERA_MAX			= 100;	//GM操作最大，程序使用
+}
+
+//玩家抽奖类型
+enum LotteryType
+{
+	LOTTERY_TYPE_INVALID	= 0;	//非法的类型
+	LOTTERY_TYPE_RECHARGE	= 1;	//充值抽奖
+	LOTTERY_TYPE_TICKET		= 2;	//鱼票抽奖
+}
+
+//登录时返回给客户端的数据
+message GameLoginInfo
+{
+	optional BASEDBINFO stBaseInfo = 1;				//玩家的基础数据
+	optional QUESTDBINFO stQuestInfo = 2;			//玩家的任务数据
+	optional ITEMDBINFO stItemInfo = 3;				//玩家的物品信息
+	optional FRIENDDBINFO stFriendInfo = 4;			//玩家的好友信息数据
+	optional MAILDBINFO stMailInfo = 5;				//玩家邮件信息
+	optional RESERVED1DBINFO stReserved1 = 6;		//玩家的Reserved1保留字段
+	optional RESERVED2DBINFO stReserved2 = 7;		//玩家的Reserved2保留字段
+}
+
+//玩家登录游戏的请求
+message Zone_LoginServer_Request
+{
+	optional RoleID stRoleID = 1;			//登录玩家的角色ID
+	optional uint32 uLoginReason = 3;		//请求登录的原因
+	optional uint32 uClientVersion = 4;		//客户端版本号
+	optional string strSessionKey = 5;		//请求登录的session key，由帐号服务器生成
+	optional string strNickName = 6;		//登录玩家的名字
+	optional string strChannel = 7;			//登录玩家的渠道号
+	optional int32 iRealNameStat = 8;		//登录玩家实名状态，客户端不传
+	optional string strAccount = 9;			//登录玩家的账号,uid
+	optional string strDeviceID = 10;		//登录玩家的设备号
+	optional bool bIsNew = 11;				//是否新注册玩家
+}
+
+//玩家登录游戏的返回
+message Zone_LoginServer_Response
+{
+	optional int32 iResult = 1;				//登录请求返回的结果
+	optional uint32 uin = 2;				//登录的玩家的uin
+	optional int32 iZoneID = 3;				//玩家所登录的区ID
+	optional int32 iWorldID = 4;			//玩家所登录的世界ID
+	optional GameLoginInfo stLoginInfo = 5;	//返回登录的玩家的数据
+}
+
+//玩家登出游戏的通知消息
+message Zone_Logout_Notify
+{
+	optional RoleID stRoleID = 1;		//登出玩家的角色ID
+}
+
+//玩家拉取好友详细信息的请求
+message Zone_GetFriendInfo_Request
+{
+	optional uint32 ucReqType = 1;		//请求的类型
+	optional uint32 uin = 2;			//自己的uin
+	optional uint32 friend_uin = 3;		//好友的uin
+}
+
+//玩家拉取好友详细信息的返回
+message Zone_GetFriendInfo_Response
+{
+	//todo jasonxiong 暂时先预留，后面再填充内容
+	optional int32 iResult = 1;			//消息处理返回的结果
+}
+
+//分区向世界服务器上报状态的请求
+message Zone_OnlineRole_Request
+{
+	optional int32 iWorldID = 1;		//分区所在世界的编号
+	optional int32 iZoneID = 2;			//分区的区编号
+	optional int32 iRoleNum = 3;		//在线的玩家角色数量
+	optional string strRecordTime = 4;	//上报状态的时间
+}
+
+//玩家角色登录的通知
+message Zone_LoginServer_Notify
+{
+	optional RoleID stRoleID = 1;		//登录玩家的角色ID
+	optional int32 iZoneID = 4;			//登录玩家的分线ID
+}
+
+//玩家背包物品操作的请求
+message Zone_RepOpera_Request
+{
+	optional ReqOperaType eType = 1 [default=REQ_OPERA_TYPE_INVALID];	//对物品操作的类型
+	optional int32 iItemID = 2;			//操作的物品ID
+	optional int32 iItemNum = 3;		//操作的物品数量
+	optional uint32 uToUin = 4;			//发送目标玩家ID
+	optional string strPhoneNum = 5;	//如果是使用物品，为玩家手机号
+}
+
+//玩家背包物品操作的返回
+message Zone_RepOpera_Response
+{
+	optional int32 iResult = 1;					//返回的错误码，非0表示出错
+	optional ReqOperaType eType = 2 [default=REQ_OPERA_TYPE_INVALID];	//玩家对背包物品的操作类型
+	optional int32 iItemID = 3;			//操作的物品ID
+	optional int32 iItemNum = 4;		//操作的物品数量
+	optional uint32 uToUin = 5;			//发送目标玩家ID
+}
+
+//背包发生变化的格子信息
+message OneRepSlot
+{
+	optional int32 iChangeChannel = 3;		//道具发生改变的来源类型
+	optional OneSlotInfo stSlotInfo = 2;	//发生改变后的背包最新格子信息
+}
+
+//玩家背包发生变化给客户端的通知
+message Zone_RepChange_Notify
+{
+	repeated OneRepSlot stItems = 1;		//发生变化的道具信息
+}
+
+//玩家资源的变化
+message UserResourceChange
+{
+	optional int32 iResType = 1;			//变化的资源类型
+	optional int32 iNewResNum = 2;			//最新的资源数量
+}
+
+//玩家游戏资源变化的通知
+message Zone_ResourceChange_Notify
+{
+	repeated UserResourceChange stChangeInfos = 1;	//玩家资源变化的通知
+}
+
+//玩家聊天的请求
+message Zone_Chat_Request
+{
+	optional ChatChannelType iChannel = 1 [default=CHAT_CHANNEL_INVALID];//聊天的频道
+	optional RoleID stTargetRoleID = 2;		//聊天的对方的角色ID
+	optional string strMessage = 3;			//聊天的消息内容
+}
+
+//玩家聊天的返回
+message Zone_Chat_Response
+{
+	optional int32 iResult = 1;				//聊天请求处理的结果
+}
+
+//玩家进入鱼池的请求
+message Zone_DoFish_Request
+{
+	optional int32 iFishRoomID = 1;			//进入的房间类型ID
+}
+
+//玩家进入鱼池的返回
+message Zone_DoFish_Response
+{
+	optional int32 iResult = 1;				//进入鱼池的返回
+	optional int32 iFishRoomID = 2;			//进入的房间类型ID
+}
+
+//鱼阵时间的通知
+message Zone_FormTime_Notify
+{
+	optional bool bIsBegin = 1;				//是否鱼阵开始
+	optional int64 lTime = 2;				//1变量true表示开始时间，false表示结束时间
+}
+
+//时间同步的通知
+message Zone_SyncTime_Notify
+{
+	optional int64 lServerTime = 1;			//当前服务器时间
+}
+
+//座位玩家信息
+message SEATUSERINFO
+{
+	optional int32 iSeat = 1;				//座位号，从0开始
+	optional uint32 uin = 2;				//玩家uin,为0表示玩家退出
+	optional int32 iGunID = 3;				//炮台ID
+	optional int64 lCoins = 4;				//玩家金币数量
+	optional int64 lTickets = 6;			//玩家的鱼票数量
+	optional string strNickName = 5;		//玩家名字
+	optional int32 iGunStyleID = 7;			//玩家炮台样式ID
+	optional string strPicID = 8;			//玩家头像
+	optional int32 iVIPLevel = 9;			//玩家VIP等级
+}
+
+//座位玩家信息的通知
+message Zone_SeatUser_Notify
+{
+	repeated SEATUSERINFO stUsers = 1;		//座位上玩家信息
+}
+
+//鱼池中鱼
+message FISHINFO
+{
+	optional uint32 uUniqID = 1;			//鱼唯一ID
+	optional int32 iFishID = 2;				//鱼的配置ID
+	optional int32 iFishSeqID = 3;			//鱼组ID
+	optional int32 iTraceID = 4;			//鱼轨迹ID
+	optional int64 lBorTime = 5;			//鱼出现时间，单位ms
+	optional int64 lDeadTime = 6;			//鱼死亡时间，单位ms
+	optional uint32 cIndex = 7;				//如果是小鱼组，小鱼组存活信息
+}
+
+//鱼池中鱼信息的通知
+message Zone_FishInfo_Notify
+{
+	repeated FISHINFO stFishes = 1;			//鱼池中鱼的信息
+}
+
+//位置定义
+message POS
+{
+	optional int32 iX = 1;					//X坐标
+	optional int32 iY = 2;					//Y坐标
+}
+
+//鱼池中子弹
+message BULLETINFO
+{
+	optional uint32 uUniqID = 1;			//子弹唯一ID
+	optional int32 iGunID = 2;				//发射子弹的炮台ID
+	optional int32 iSeat = 3;				//发射子弹的玩家座位号
+	optional POS stTargetPos = 4;			//子弹发射的目标位置
+	optional int64 lShootTime = 5;			//子弹发射时间
+	optional uint32 uFishUniqID = 6;		//瞄准目标鱼唯一ID，0表示非瞄准子弹
+	optional bool bIsAimFormFish = 7;		//是否瞄准鱼阵中的鱼
+	optional int32 iFishIndex = 8;			//如果瞄准小鱼组，小鱼组的index，1-5
+}
+
+//鱼池中子弹信息的通知
+message Zone_BulletInfo_Notify
+{
+	repeated BULLETINFO stBullets = 1;		//鱼池中子弹信息
+}
+
+//鱼阵出鱼信息
+message FORMFISHOUTINFO
+{
+	optional int32 iOutID = 1;				//出鱼的唯一ID
+	optional int32 iFishID = 2;				//出鱼的鱼ID
+	optional int32 iFishSeqID = 3;			//出鱼鱼组ID
+	optional int32 iTraceID = 4;			//出鱼轨迹ID
+	optional int64 lBeginTime = 5;			//出鱼开始时间，单位ms
+	optional int32 iRemaiNum = 6;			//出鱼条数
+	optional int32 iInterval = 7;			//出鱼时间间隔，单位ms
+	repeated uint64 szAliveFish = 8;		//数组长度为4，对应二进制位表示该鱼是否活着
+}
+
+//鱼阵详细信息的通知
+message Zone_FormInfo_Notify
+{
+	repeated FORMFISHOUTINFO stFormInfos = 1;//鱼阵详细信息
+}
+
+//玩家退出鱼池的请求
+message Zone_ExitFish_Request
+{
+	optional int32 iFishRoomID = 1;			//退出的捕鱼房间类型
+}
+
+//玩家退出鱼池的返回
+message Zone_ExitFish_Response
+{
+	optional int32 iResult = 1;				//退出捕鱼房间的返回
+}
+
+//玩家退出鱼池的通知
+message Zone_ExitFish_Notify
+{
+	optional int32 iSeat = 1;				//退出捕鱼房间的玩家座位号
+	optional bool bForceExit = 2;			//是否强制退出，true为系统踢人
+}
+
+//玩家切换炮台的请求
+message Zone_ChangeGun_Request
+{
+	optional int32 iNewGunID = 1;			//切换的炮台ID
+	optional bool bIsStyle = 2;				//切换炮台样式还是倍数，true是切换样式
+}
+
+//玩家切换炮台的返回
+message Zone_ChangeGun_Response
+{
+	optional int32 iResult = 1;				//切换炮台的返回
+	optional int32 iNewGunID = 2;			//切换的炮台ID
+	optional bool bIsStyle = 3;				//切换炮台样式还是倍数，true是切换样式
+}
+
+//玩家切换炮台的通知
+message Zone_ChangeGun_Notify
+{
+	optional int32 iSeat = 1;				//切换炮台的座位
+	optional int32 iNewGunID = 2;			//切换的炮台ID
+	optional bool bIsStyle = 3;				//true炮台样式，false炮台倍数
+}
+
+//玩家发射子弹的请求
+message Zone_ShootBullet_Request
+{
+	optional int64 lShootTime = 1;			//客户端发射子弹时间，单位ms
+	optional int32 iPosX = 2;				//发射的角度X
+	optional int32 iPosY = 3;				//发射的角度Y
+	optional bool bAutoShoot = 4;			//是否自动发炮的子弹
+}
+
+//玩家发射子弹的返回
+message Zone_ShootBullet_Response
+{
+	optional int32 iResult = 1;				//发射子弹的返回
+}
+
+//玩家发射子弹的通知
+message Zone_ShootBullet_Notify
+{
+	optional uint32 uUniqID = 1;			//发射的子弹唯一ID
+	optional int32 iGunID = 2;				//发射子弹的炮台ID
+	optional int32 iSeat = 3;				//发射子弹的玩家位置
+	optional POS stTargetPos = 4;			//发射的角度
+	optional int64 lShootTime = 5;			//发射子弹的时间
+	optional uint32 uFishUniqID = 6;		//0为非瞄准子弹，非0表示瞄准的鱼
+	optional bool bIsAimFormFish = 7;		//是否瞄准鱼阵中的鱼
+	optional int32 iFishIndex = 8;			//如果瞄准小鱼组，小鱼组的index，1-5
+	optional bool bIsWildBullet = 9;		//是否狂暴状态子弹
+}
+
+//玩家命中鱼的请求
+message Zone_HitFish_Request
+{
+	optional int64 lHitTime = 1;			//命中的时间
+	optional uint32 uBulletUniqID = 2;		//命中子弹的唯一ID
+	optional uint32 uFishUniqID = 3;		//命中鱼的唯一ID
+	optional int32 iFishIndex = 4;			//如果命中小鱼组，在小鱼组中的下标
+}
+
+//玩家命中鱼的返回
+message Zone_HitFish_Response
+{
+	optional int32 iResult = 1;				//命中鱼的返回
+}
+
+//玩家命中鱼的通知
+message Zone_HitFish_Notify
+{
+	optional uint32 uBulletUniqID = 1;		//命中子弹的唯一ID
+	optional uint32 uFishUniqID = 2;		//命中鱼的唯一ID
+	optional int32 iSeat = 3;				//玩家的座位
+	optional int32 iRewardCoins = 4;		//命中的奖励，0表示未命中
+	optional bool bIsForm = 5;				//是否命中鱼阵中的鱼
+	optional int32 iFishIndex = 6;			//如果小鱼组，小鱼组中的index
+	optional int32 iMultiFish = 7;			//如果是多倍鱼，多倍鱼的倍数
+	optional int32 iBulletLiveTime = 8;		//持续时间
+}
+
+//玩家命中鱼阵鱼的请求
+message Zone_HitFormFish_Request
+{
+	optional uint32 uBulletUniqID = 1;		//子弹唯一ID
+	optional int32 iFormOutID = 2;			//鱼阵出鱼唯一ID
+	optional int32 iFishIndex = 3;			//出鱼条数，从1开始
+	optional int64 lHitTime = 4;			//命中鱼的时间
+}
+
+//玩家命中鱼阵鱼的返回
+message Zone_HitFormFish_Response
+{
+	optional int32 iResult = 1;				//命中鱼阵鱼的返回
+}
+
+//玩家电死鱼的通知
+message Zone_BoomFishInfo_Notify
+{
+	repeated uint32 uFishUniqIDs = 1;		//电死普通鱼唯一ID
+	repeated int32 uSmallFishIndex = 2;		//如果电死小鱼组中的鱼，对应为小鱼组的index
+	repeated uint32 uFormUniqIDs = 3;		//电死鱼阵鱼的唯一ID
+	optional int32 iSeat = 4;				//打死炸弹鱼的玩家座位号
+}
+
+//玩家抽奖的请求
+message Zone_Lottery_Request
+{
+
+}
+
+//玩家抽奖的返回
+message Zone_Lottery_Response
+{
+	optional int32 iResult = 1;				//玩家抽奖的返回
+	optional int32 iLotteryItemID = 2;		//玩家抽到的奖项ID
+}
+
+//玩家获得鱼票桌子的通知
+message Zone_AddTicket_Notify
+{
+	optional uint32 uiUin = 1;				//获取鱼票的玩家ID
+	optional uint32 uFishUniqID = 2;		//掉落鱼票的鱼唯一ID
+	optional bool bIsFormFish = 3;			//是否鱼阵中的鱼
+	optional int32 iAddNum = 4;				//增加的鱼票数量
+}
+
+//任务变化类型
+enum QuestChangeType
+{
+	QUEST_CHANGE_INVALID	= 0;			//非法的变化
+	QUEST_CHANGE_ADD		= 1;			//新增加任务
+	QUEST_CHANGE_DELETE		= 2;			//删除任务
+	QUEST_CHANGE_UPDATE		= 3;			//更新任务
+	QUEST_CHANGE_FIN		= 4;			//完成任务
+}
+
+//玩家任务变化
+message QuestChange
+{
+	optional int32 iQuestID = 1;			//任务ID
+	optional int32 iNum = 2;				//任务进度
+	optional int32 iChangeType = 3;			//任务变化类型，对应QuestChangeType
+}
+
+//玩家任务变化的通知
+message Zone_QuestChange_Notify
+{
+	repeated QuestChange stChanges = 1;		//变化的任务列表
+	optional int32 iAdventNum = 2;			//奇遇任务的次数
+	optional int32 iAdventEndTime = 3;		//奇遇任务过期时间
+}
+
+//玩家完成任务的请求
+message Zone_FinQuest_Request
+{
+	optional int32 iQuestID = 1;			//完成的任务ID
+}
+
+//玩家完成任务的返回
+message Zone_FinQuest_Response
+{
+	optional int32 iResult = 1;				//完成任务的返回
+}
+
+//玩家奖励
+message RewardInfo
+{
+	optional int32 iType = 1;			//资源还是道具
+	optional int32 iID = 2;				//资源类型或者道具ID
+	optional int32 iNum = 3;			//领取的数量
+}
+
+//玩家奖励的通知
+message Zone_GetReward_Notify
+{
+	optional int32 iQuestID = 1;			//如果是完成任务奖励，为任务ID
+	repeated RewardInfo stRewards = 2;		//玩家领取的奖励
+}
+
+//玩家设置兑换信息的请求
+message Zone_SetExchange_Request
+{
+	optional ExchangeUser stUserInfo = 1;	//兑换玩家信息
+}
+
+//玩家设置兑换信息的返回
+message Zone_SetExchange_Response
+{
+	optional int32 iResult = 1;				//设置兑换信息的返回
+	optional ExchangeUser stUserInfo = 2;	//兑换玩家信息
+}
+
+//玩家兑换的请求
+message Zone_ExchangeItem_Request
+{
+	optional int32 iExchangeID = 1;		//兑换的配置ID
+}
+
+//玩家兑换的返回
+message Zone_ExchangeItem_Response
+{
+	optional int32 iResult = 1;			//兑换的返回
+	optional ExchangeOrder stOrder = 2;	//兑换订单信息
+}
+
+//玩家新邮件的通知
+message Zone_NewMailInfo_Notify
+{
+	optional OneMailInfo stMailInfo = 1;//新邮件信息
+	repeated uint32 uDelUniqIDs = 2;	//删除的邮件唯一ID
+}
+
+//玩家邮件操作类型
+enum MailOperaType
+{
+	MAIL_OPERA_INVALID		= 0;		//非法的操作
+	MAIL_OPERA_READ			= 1;		//阅读邮件
+	MAIL_OPERA_RECIEVE		= 2;		//领取邮件附件
+	MAIL_OPERA_DELETE		= 3;		//删除邮件
+	MAIL_OPERA_ONERECIEVE	= 4;		//一键领取附件
+	MAIL_OPERA_ONEDELETE	= 5;		//一键删除邮件
+	MAIL_OPERA_MAX			= 6;		//操作最大，程序使用
+}
+
+//玩家邮件操作的请求
+message Zone_MailOpera_Request
+{
+	optional uint32 uUniqID = 1;		//邮件唯一ID
+	optional int32 iOperaType = 2;		//邮件操作类型，对应MailOperaType
+}
+
+//玩家邮件操作的返回
+message Zone_MailOpera_Response
+{
+	optional int32 iResult = 1;			//邮件操作的结果
+	optional uint32 uUniqID = 2;		//邮件唯一ID
+	optional int32 iOperaType = 4;		//邮件操作类型，对应MailOperaType
+}
+
+//玩家领取活跃度奖励的请求
+message Zone_GetLivness_Request
+{
+	optional int32 iLivnessRewardID = 1;//领取的活跃度奖励ID
+}
+
+//玩家领取活跃度奖励的返回
+message Zone_GetLivness_Response
+{
+	optional int32 iResult = 1;			//返回的结果
+	optional int32 iLivnessRewardID = 2;//领取活跃度奖励ID
+}
+
+//玩家拉取排行信息的请求
+message Zone_GetRankInfo_Request
+{
+	optional int32 iType = 1;			//拉取的排行榜类型，对应RankType
+	optional int32 iFromIndex = 2;		//开始的index，从0开始
+	optional int32 iNum = 3;			//拉取的数量
+	optional bool bLastRank = 4;		//是上期还是本期
+}
+
+//玩家拉取排行信息的返回
+message Zone_GetRankInfo_Response
+{
+	optional int32 iResult = 1;			//返回的结果
+	optional int32 iType = 2;			//排行榜类型，对应RankType
+	repeated RankInfo stRanks = 3;		//排行详细信息
+	optional bool bLastRank = 4;		//是上期还是本期
+	optional int32 iMyRank = 5;			//我自己的排名,0表示不在排名中
+}
+
+//技能类型
+enum SkillType
+{
+	SKILL_TYPE_INVALID		= 0;		//非法的技能类型
+	SKILL_TYPE_AUTOSHOOT	= 1;		//自动发炮
+	SKILL_TYPE_AIMFISH		= 2;		//瞄准鱼
+	SKILL_TYPE_WARHEAD		= 3;		//使用弹头
+	SKILL_TYPE_WILD			= 4;		//狂暴
+	SKILL_TYPE_PREWARHEAD	= 5;		//预使用弹头
+}
+
+//玩家使用技能的请求
+message Zone_UseSkill_Request
+{
+	optional int32 iType = 1;			//使用技能的类型，对应SkillType
+	optional int32 iItemID = 2;			//需要指定使用的道具ID
+	repeated uint32 uFishUniqIDs = 3;	//使用弹头炸死鱼的IDs
+	optional POS stWarHeadPos = 4;		//使用弹头的位置
+}
+
+//玩家使用技能的返回
+message Zone_UseSkill_Response
+{
+	optional int32 iResult = 1;			//使用技能的返回
+	optional int32 iType = 2;			//使用技能的类型，对应SkillType
+}
+
+//玩家使用技能的通知
+message Zone_UseSkill_Notify
+{
+	optional uint32 uin = 1;			//使用技能的玩家uin
+	optional int32 iType = 2;			//使用的技能类型,对应SkillType
+	optional bool bIsOpen = 3;			//打开还是关闭技能
+	optional int64 lAimEndTime = 4;		//如果是瞄准，瞄准结束时间
+	repeated uint32 uFishUniqIDs = 5;	//使用弹头炸死鱼的IDs
+	optional int64 lRewardCoins = 6;	//弹头炸鱼获得的金币数
+	optional int64 lWildEndTime = 7;	//狂暴结束时间
+	optional int32 iWildNum = 8;		//狂暴次数
+	optional POS stWarHeadPos = 9;		//使用弹头的位置
+}
+
+//玩家拉取限量的请求
+message Zone_GetLimitNum_Request
+{
+	optional uint32 uin = 1;			//拉取的玩家uin
+	optional int32 iZoneID = 2;			//拉取的fromzone，客户端使用不用填
+}
+
+//限量信息
+message LimitInfo
+{
+	optional int32 iExchangeID = 1;		//限量兑换ID
+	optional int32 iNum = 2;			//限量剩余数量
+}
+
+//玩家拉取限量的返回
+message Zone_GetLimitNum_Response
+{
+	optional int32 iResult = 1;			//拉取限量的结果
+	repeated LimitInfo stLimits = 2;	//限量兑换信息
+}
+
+//玩家选择瞄准的请求
+message Zone_ChooseAimFish_Request
+{
+	optional uint32 uFishUniqID = 1;	//瞄准鱼的唯一ID
+	optional int32 iFishIndex = 2;		//如果是小鱼组，小鱼的index
+}
+
+//玩家选择瞄准的返回
+message Zone_ChooseAimFish_Response
+{
+	optional int32 iResult = 1;			//选择瞄准结果
+	optional uint32 uFishUniqID = 2;	//瞄准鱼的唯一ID
+	optional int32 iFishIndex = 3;		//如果是小鱼组，小鱼的index
+}
+
+//玩家选择瞄准的通知
+message Zone_ChooseAimFish_Notify
+{
+	optional uint32 uin = 1;			//选择瞄准鱼的玩家
+	optional uint32 uFishUniqID = 2;	//选择瞄准的鱼唯一ID
+	optional int32 iFishIndex = 3;		//如果是小鱼组，小鱼的index
+}
+
+//玩家领取救济金的请求
+message Zone_GetUserAlms_Request
+{
+
+}
+
+//玩家领取救济金的返回
+message Zone_GetUserAlms_Response
+{
+	optional int32 iResult = 1;			//领取救济金的结果
+}
+
+//玩家救济金更新的通知
+message Zone_UpdateAlms_Notify
+{
+	optional int32 iGetNum = 1;			//已经领取次数
+	optional int32 iNextGetTime = 2;	//下次可领取时间
+}
+
+//玩家限量抽奖的请求
+message Zone_LimitLottery_Request
+{
+	optional bool bIsTenTimes = 1;		//是否10次连抽，false表示抽1次
+	optional uint32 uin = 2;			//充值抽奖玩家uin,服务器填充
+	optional int32 izoneid = 3;			//拉取的zoneid，服务器填充
+	optional string strNickName = 4;	//玩家昵称，服务器填充
+	optional int32 iLotteryType = 5;	//限量抽奖类型，对应LotteryType
+}
+
+//玩家限量抽奖的返回
+message Zone_LimitLottery_Response
+{
+	optional int32 iResult = 1;			//充值抽奖的结果
+	repeated int32 iLotteryIDs = 2;		//抽取的奖项
+	optional uint32 uin = 3;			//充值抽奖玩家uin
+	optional int32 iLotteryType = 4;	//限量抽奖类型，对应LotteryType
+}
+
+//玩家拉取充值抽奖记录的请求
+message Zone_PayLotteryRecord_Request
+{
+	optional int32 iFrom = 1;			//开始拉取的index，从1开始
+	optional int32 iNum = 2;			//拉取的数量
+	optional int32 izoneid = 3;			//拉取的zoneid,服务器填充
+}
+
+//充值抽奖记录
+message PayLotteryRecord
+{
+	optional string strNickName = 1;	//玩家昵称
+	optional int32 iLotteryID = 2;		//玩家的奖项
+	optional int32 iIndex = 3;			//该记录的位置，从1开始
+}
+
+//玩家拉取充值抽奖记录的返回
+message Zone_PayLotteryRecord_Response
+{
+	optional int32 iResult = 1;				//拉取的结果
+	repeated PayLotteryRecord stRecords =2; //拉取的抽奖记录
+}
+
+//玩家走马灯信息
+message HorseLampInfo
+{	
+	optional int32 iLampID = 1;			//走马灯ID
+	optional int32 iEndTime = 2;		//结束时间
+	optional int32 iInterval = 3;		//播放间隔
+	optional int32 iTimes = 4;			//播放次数
+	repeated bytes strParams = 5;		//走马灯参数
+}
+
+//玩家走马灯的通知
+message Zone_HorseLamp_Notify
+{
+	optional int32 iZoneID = 1;			//发送的ZoneID，客户端不用
+	repeated HorseLampInfo stInfos = 2;	//走马灯信息
+}
+
+//玩家进出大转盘请求
+message Zone_EnterLasvegas_Request
+{
+	optional bool bIsEnter = 1;			//玩家进出大转盘，false表示出去
+}
+
+//玩家进出大转盘返回
+message Zone_EnterLasvegas_Response
+{
+	optional int32 iResult = 1;			//请求处理结果
+	optional bool bIsEnter = 2;			//进出大转盘，false表示出去
+}
+
+//玩家转盘下注的请求
+message Zone_LasvegasBet_Request
+{
+	optional NumberBetInfo stBet = 1;//玩家下注信息
+}
+
+//玩家转盘下注的返回
+message Zone_LasvegasBet_Response
+{
+	optional int32 iResult = 1;			//下注处理的结果
+	optional NumberBetInfo stBet = 2;	//玩家下注信息
+}
+
+//大转盘信息更新通知
+message Zone_UpdateLasvegas_Notify
+{
+	optional LasvegasInfo stInfo = 1;	//大转盘更新信息，不包括中奖纪录
+}
+
+//拉取转盘中奖纪录请求
+message Zone_GetRewardInfo_Request
+{
+	optional int32 iFromIndex = 1;		//中奖纪录起始，从1开始
+	optional int32 iNum = 2;			//中奖纪录拉取数量
+}
+
+//拉取转盘中奖纪录返回
+message Zone_GetRewardInfo_Response
+{
+	optional int32 iResult = 1;			//请求处理结果
+	repeated PrizeInfo stInfos = 2;		//拉取的中奖纪录
+}
+
+//玩家领取登录奖励请求
+message Zone_GetLoginReward_Request
+{
+	optional int32 iRewardID = 1;		//登录奖励的ID
+}
+
+//玩家领取登录奖励返回
+message Zone_GetLoginReward_Response
+{
+	optional int32 iResult = 1;			//请求处理结果
+	optional int32 iRewardID = 2;		//登录奖励ID
+}
+
+//玩家拉取充值记录请求
+message Zone_GetPayRecord_Request
+{
+	optional uint32 uin = 1;			//拉取的玩家uin
+}
+
+//玩家拉取充值记录返回
+message Zone_GetPayRecord_Response
+{
+	optional int32 iResult = 1;				//请求处理结果
+	repeated RechargeRecord stRecords = 2;	//充值记录
+}
+
+//充值礼包类型
+enum PayGiftType
+{
+	PAY_GIFT_INVALID	= 0;	//非法的类型
+	PAY_GIFT_FIRST		= 1;	//首冲礼包
+	PAY_GIFT_MONTHCARD	= 2;	//月卡礼包
+}
+
+//玩家领取充值礼包请求
+message Zone_GetPayGift_Request
+{
+	optional int32 iGiftType = 1;	//充值礼包类型，对应PayGiftType
+}
+
+//玩家领取充值礼包的返回
+message Zone_GetPayGift_Response
+{
+	optional int32 iResult = 1;		//请求处理结果
+	optional int32 iGiftType = 2;	//充值礼包类型，对应PayGiftType
+}
+
+//玩家更新月卡时间的通知
+message Zone_UpdateMonthTime_Notify
+{
+	optional int32 iMonthEndTime = 1;	//月卡到期时间
+}
+
+//玩家捕鱼信息更新通知
+message Zone_FishUserUpdate_Notify
+{
+	optional int32 iSeat = 1;			//更新的玩家座位号
+	optional int64 iAddCoins = 2;		//变化的金币数量
+	optional int64 iAddTickets = 3;		//变化的鱼票数量
+	optional OneSlotInfo stAddItem = 4;	//变化的弹头信息
+}
+
+//玩家VIP经验的通知
+message Zone_VipExpUpdate_Notify
+{
+	optional int32 iVipLevel = 1;	//当前VIP等级
+	optional int32 iVipExp = 2;		//当前VIP经验
+	optional int32 iVipPriv = 3;	//当前VIP特权
+}
+
+//玩家充值的通知
+message Zone_UserRecharge_Notify
+{
+	optional int32 iRechargeID = 1;	//充值项ID
+}
+
+//玩家拉取订单号请求
+message Zone_GetPayOrder_Request
+{
+	optional int32 uin = 1;			//拉取订单号的玩家
+	optional int32 iFromZoneID = 2;	//拉取的ZoneID，客户端不传
+}
+
+//玩家拉取订单号返回
+message Zone_GetPayOrder_Response
+{
+	optional int32 iResult = 1;		//请求返回结果
+	optional string strOrderID = 2;	//拉取的订单号
+}
+
+//玩家完成新手引导请求
+message Zone_FinGuide_Request
+{
+	optional int32 iGuideID = 1;	//完成的新手引导ID
+}
+
+//玩家完成新手引导返回
+message Zone_FinGuide_Response
+{
+	optional int32 iResult = 1;		//返回结果
+	optional int32 iGuideID = 2;	//完成的新手引导ID
+}
+
+//玩家修改名字的请求
+message Zone_UpdateName_Request
+{
+	optional string strNewName = 1;	//修改的新名字
+	optional bool bIsSign = 2;		//true修改签名，false修改名字
+}
+
+//玩家修改名字的返回
+message Zone_UpdateName_Response
+{
+	optional int32 iResult = 1;		//返回结果
+	optional string strNewName = 2;	//修改的新名字
+	optional bool bIsSign = 3;		//true修改签名，false修改名字
+}
+
+//玩家金币充值的请求
+message Zone_UserRecharge_Request
+{
+	optional int32 iRechargeID = 1;	//玩家充值的ID，目前只有金币
+}
+
+//玩家金币充值的返回
+message Zone_UserRecharge_Response
+{
+	optional int32 iResult = 1;		//玩家充值返回结果
+	optional int32 iRechargeID = 2;	//玩家充值的ID
+}
+
+//玩家拉取兑换记录的请求
+message Zone_GetExchangeRec_Request
+{
+	optional int32 iFromIndex = 1;	//拉取的起始index，从1开始
+	optional int32 iNum = 2;		//拉取的数量
+	optional int32 iZoneID = 3;		//拉取的Zone,客户端不传
+	optional uint32 uin = 4;		//玩家uin，客户端不传
+}
+
+
+//玩家拉取兑换记录的返回
+message Zone_GetExchangeRec_Response
+{
+	optional int32 iResult = 1;			//拉取的结果
+	optional int32 iFromIndex = 2;		//拉取的起始index
+	optional int32 iNum = 3;			//拉取的数量
+	repeated ExchangeRec stRecords = 4;	//拉取的兑换记录
+	optional uint32 uin = 5;			//玩家uin
+}
+

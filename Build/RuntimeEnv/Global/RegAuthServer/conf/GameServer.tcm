@@ -1,0 +1,23 @@
+[Param]
+LogPath = ../log/
+LogLevel = 63
+OssLog = 1
+PlayerLog = 0
+StatLog = 0
+
+[CodeQueue]
+CodeQueueNum = 1
+CodeQueuePath = ../../../Common/data/
+GatewayToRegAuth_0 = CQGatewayToRegAuth_0.shm
+RegAuthToGateway_0 = CQRegAuthToGateway_0.shm
+
+# 内网服务器通信的Bus
+# ID 格式为 WorldID.ServerType.InstanceID.ZoneID
+[ServerBus]
+ServerBusNum = 1
+
+# RegAuthServer to RegAuthDB
+IsServerEnd_0   = 0
+ServerBusID_0   = 0.6.1.0
+ServerBusIP_0   = #SERVERIP#
+ServerBusPort_0 = #REGAUTH2DB#

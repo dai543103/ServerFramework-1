@@ -1,0 +1,426 @@
+//World Server相关的协议
+
+import "GameProtocol_Common.proto";
+import "GameProtocol_USERDB.proto";
+
+//World Server通知分区信息发生改变
+message World_ZoneChanged_Notify
+{
+	optional uint32 worldID = 1;			//所在的世界的ID
+	optional ZoneList stZones = 2;			//世界的所有分区信息
+}
+
+//World Server创建角色的请求
+message World_CreateRole_Request
+{
+	optional uint32 uin = 1;					//创建角色的uin
+	optional uint32 world = 2;					//创建角色的玩家所在世界的ID
+	optional int32 iRealNameStat = 3;			//创建角色的玩家实名状态
+	optional GameUserInfo stBirthData = 4;		//创建角色的玩家的基本信息
+	optional KickerInfo stKicker = 5;			//玩家其他信息
+}
+
+//World Server创建角色请求的返回
+message World_CreateRole_Response
+{
+	optional int32 iResult = 1;				//创建角色的结果
+	optional RoleID stRoleID = 2;			//创建的玩家的角色ID
+	optional int32 iRealNameStat = 3;		//创建角色玩家实名状态
+	optional KickerInfo stKicker = 4;		//玩家其他信息
+}
+
+//World Server拉取角色数据的请求
+message World_FetchRole_Request
+{
+	optional RoleID stRoleID = 1;			//要拉取数据的玩家角色ID
+	optional bool bIsLogin = 2;				//是否登录拉取数据的请求
+	optional int32 iReqID = 4;				//请求的Zone Server的ZoneID
+	optional KickerInfo stKicker = 5;		//踢人者的信息
+}
+
+//World Server拉取角色数据的返回
+message World_FetchRole_Response
+{
+	optional int32 iResult = 1;				//拉取角色的错误码
+	optional RoleID stRoleID = 2;			//拉取数据的玩家角色ID
+	optional bool bExist = 3;				//拉取的角色是否存在
+	optional bool bIsLogin = 4;				//是否登录拉取数据的请求
+	optional GameUserInfo stUserInfo = 5;	//从DB中下拉到的玩家的数据
+	optional KickerInfo stKicker = 6;		//踢人者的信息
+}
+
+//World Server更新玩家数据的请求
+message World_UpdateRole_Request
+{
+	optional RoleID stRoleID = 1;			//玩家的角色ID
+	optional int32 iReqID = 2;				//请求的Zone Server的ZoneID
+	optional GameUserInfo stUserInfo = 3;	//需要更新到DB中的数据
+	optional bool bNeedResponse = 4;		//是否需要回复
+}
+
+//World Server更新玩家数据的返回
+message World_UpdateRole_Response
+{
+	optional RoleID stRoleID = 1;			//更新的玩家的角色ID
+	optional int32 iResult = 2;				//更新数据返回的结果
+}
+
+//踢人者的信息
+message KickerInfo
+{
+	optional int32 iFromWorldID = 1;		//踢人者的WorldID
+	optional int32 iFromZoneID = 2;			//踢人者的ZoneID
+	optional int32 iSessionID = 3;			//踢人者的SessionFD
+	optional RoleID stRoleID = 4;			//踢人者角色ID
+	optional string strNickName = 5;		//踢人者名字
+	optional string strChannel = 6;			//踢人者渠道号
+	optional int32 iRealNameStat = 7;		//踢人者实名状态
+	optional string strAccount = 8;			//踢人者的账号
+	optional string strDeviceID = 9;		//踢人者的设备号
+}
+
+//World Server踢人的请求
+message World_KickRole_Request
+{
+	optional bool bIsLogin = 1;				//是否登录导致踢人
+	optional KickerInfo stKicker = 2;		//踢人者的信息
+	optional uint32 uKickedUin = 3;			//被踢掉的玩家
+}
+
+//World Server踢人的返回
+message World_KickRole_Response
+{
+	optional int32 iResult = 1;				//踢人请求的结果
+	optional bool bIsLogin = 2;				//是否登录导致踢人
+	optional KickerInfo stKicker = 3;		//踢人者信息
+	optional uint32 uKickedUin = 4;			//被提掉的玩家
+}
+
+//单个分线Zone的详细信息
+message ZoneOnlineInfo
+{
+	optional int32 iZoneID = 1;				//分线的ID
+	optional int32 iRoleNum = 2;			//分线在线的玩家数量
+}
+
+//单个World的详细信息
+message WorldOnlineInfo
+{
+	optional int32 iWorldID = 1;				//世界ID
+	optional int32 iOnlineRoleNum = 2;			//在线的玩家数量
+	optional int32 iRegisterNum = 3;			//注册玩家数量
+	optional int32 iMaxOnlineNum = 4;			//最大支持在线玩家数量
+	optional int32 iMaxRegisterNum = 5;			//最大支持的注册玩家数量
+	optional int32 iActiveZoneNum = 6;			//活跃的分线数量
+	repeated ZoneOnlineInfo stZoneInfos = 7;	//世界中所有的分线信息
+}
+
+//World向Cluster上报状态的请求
+message World_OnlineStat_Request
+{
+	optional int32 iWorldID = 1;				//上报的世界的ID
+	optional WorldOnlineInfo stWorldInfo = 2;	//上报的世界信息
+	optional int32 uRecordTime = 3;				//上报统计的时刻
+}
+
+//World向Cluster上报状态的返回
+message World_OnlineStat_Response
+{
+	optional int32 iWorldID = 1;				//上报的世界的ID
+	optional int32 iInstanceID = 2;				//Cluster Server的ID
+}
+
+//World转发世界聊天信息
+message World_Chat_Notify
+{
+	optional ChatChannelType iChannel = 1 [default=CHAT_CHANNEL_INVALID];//聊天的频道
+	optional RoleID stRoleID = 2;				//发送者的角色ID
+	optional int32 iZoneID = 4;					//发送者所在分线的ID
+	optional string szNickName = 3;				//发送者的名字
+	optional RoleID stTargetID = 5;				//接收者的角色ID
+	optional string szMessage = 6;				//聊天的消息内容
+}
+
+//更新排行信息
+message UpdateRankInfo
+{
+	optional int32 iRankType = 1;				//更新的排行类型
+	optional RankInfo stRank = 2;				//更新的排行信息
+}
+
+//更新排行榜的请求
+message World_UpdateRank_Request
+{
+	optional int32 iFromZoneID = 1;				//更新数据的ZoneID
+	repeated UpdateRankInfo stUpdateRanks = 2;	//更新的排行信息
+}
+
+//更新排行榜的返回
+message World_UpdateRank_Response
+{
+	optional int32 iResult = 1;					//更新排行的结果
+}
+
+//拉取排行榜的请求
+message World_GetRankInfo_Request
+{
+	optional int32 iType = 1;					//拉取的排行榜类型
+	optional uint32 iVersionID = 2;				//当前版本ID
+	optional int32 iFromZoneID = 3;				//拉取的ZoneID
+}
+
+//拉取排行榜的返回
+message World_GetRankInfo_Response
+{
+	optional int32 iResult = 1;					//拉取的结果
+	optional int32 iType = 2;					//拉取的类型
+	optional uint32 iVersionID = 3;				//排行榜版本号
+	optional int32 iLastUpdate = 4;				//排行上次更新时间
+	repeated RankInfo stRanks = 5;				//排行榜信息
+	repeated RankInfo stLastRanks = 6;			//上周期排行信息
+}
+
+//发送邮件的请求
+message World_SendMail_Request
+{
+	optional OneMailInfo stMailInfo = 1;		//发送邮件信息
+	optional uint32 uiFromUin = 2;				//发送者uin
+	optional uint32 uiToUin = 3;				//接收者uin
+	optional int32 iTryTimes = 4;				//发送失败重试次数
+}
+
+//发送邮件的返回
+message World_SendMail_Response
+{
+	optional int32 iResult = 1;					//发送邮件的结果
+	optional OneMailInfo stMailInfo = 2;		//发送邮件信息
+	optional uint32 uiFromUin = 3;				//发送者uin
+	optional uint32 uiToUin = 4;				//接收者uin
+	optional int32 iTryTimes = 5;				//发送失败重试次数
+}
+
+//修改限购的原因
+enum LimitReasonType
+{
+	LIMIT_REASON_INVALID = 0;					//非法的修改原因
+	LIMIT_REASON_EXCHANGE = 1;					//玩家兑换
+	LIMIT_REASON_GM = 2;						//GM修改限购
+}
+
+//修改限购数量的请求
+message World_AddLimitNum_Request
+{
+	optional uint32 uin = 1;					//修改的玩家uin，为0是GM
+	optional int32 iExchangeID = 2;				//限购兑换的ID
+	optional int32 iAddNum = 3;					//增加的数量，<0为减少数量
+	optional int32 iZoneID = 4;					//修改限购数量的ZoneID
+	optional int32 iReason = 5;					//修改的原因
+}
+
+//修改限购数量的返回
+message World_AddLimitNum_Response
+{
+	optional int32 iResult = 1;					//返回的结果
+	optional uint32 uin = 2;					//修改的玩家uin，为0是GM
+	optional int32 iExchangeID = 3;				//限购兑换的ID 
+	optional int32 iReason = 4;					//修改的原因
+}
+
+//更新转盘中奖的请求
+message World_UpdatePrizeInfo_Request
+{
+	repeated PrizeInfo stPrizes = 1;			//中奖信息
+}
+
+//更新下注信息的请求
+message World_UpdateBetInfo_Request
+{
+	repeated NumberBetInfo stBetInfos = 1;		//转盘数字下注信息
+}
+
+//更新转盘信息的通知
+message World_UpdateLasvegas_Notify
+{
+	optional LasvegasInfo stInfo = 1;			//大转盘信息
+}
+
+enum RechargeType
+{
+	RECHARGE_TYPE_INVALID	= 0;	//非法的充值类型
+	RECHARGE_TYPE_COIN		= 1;	//购买金币
+	RECHARGE_TYPE_MONTH		= 2;	//购买月卡
+	RECHARGE_TYPE_ITEM		= 3;	//购买道具
+	RECHARGE_TYPE_DIAMOND	= 4;	//购买钻石
+}
+
+//玩家游戏充值的请求
+message World_UserRecharge_Request
+{
+	optional uint32 uin = 1;					//充值玩家uin
+	optional string strOrderID = 2;				//充值订单号
+	optional int32 iRMB = 3;					//充值话费人民币
+	optional int32 iRechargeID = 4;				//玩家充值项ID
+	optional int32 iTime = 5;					//玩家充值时间
+	optional int32 iPlatform = 6;				//玩家充值平台
+}
+
+//玩家游戏充值的返回
+message World_UserRecharge_Response
+{
+	optional int32 iResult = 1;					//充值返回结果
+	optional uint32 uin = 2;					//充值玩家uin
+	optional string strOrderID = 3;				//充值订单号
+	optional int32 iRechargeID = 4;				//玩家充值项ID
+	optional int32 iPlatform = 5;				//玩家充值平台ID
+}
+
+//GM管理员的GM请求
+message GameMaster_Request
+{
+	optional int32 iOperaType = 1;		//操作类型
+	optional uint32 uFromUin = 2;		//操作者uin
+	optional uint32 uToUin = 3;			//操作的目标uin
+	repeated string strParams = 4;		//GM操作的参数
+	optional int32 iVIPMin = 5;			//VIP等级最小
+	optional int32 iVIPMax = 6;			//VIP等级最大
+	repeated string strChannelIDs = 7;	//指定渠道号
+	optional int32 iMailEndTime = 9;	//系统邮件结束时间
+	optional int32 iFromZoneID = 8;		//GM操作的Zone，服务器内使用
+}
+
+//GM管理员的GM返回
+message GameMaster_Response
+{
+	optional int32 iResult = 1;			//请求返回结果
+	optional int32 iOperaType = 2;		//操作类型
+	optional uint32 uFromUin = 3;		//操作者uin
+	optional uint32 uToUin = 4;			//操作的目标uin
+	optional BASEDBINFO stBaseInfo = 5;	//玩家基础信息
+	optional ITEMDBINFO stItemInfo = 6;	//玩家物品信息
+}
+
+//系统邮件更新通知
+message World_SystemMailID_Notify
+{
+	optional uint32 uSystemUniqID = 1;	//系统邮件当前唯一ID最大
+}
+
+//拉取邮件原因
+enum MailReasonType
+{
+	MAIL_REASON_INVALID	= 0;			//非法的原因
+	MAIL_REASON_NORMAL	= 1;			//正常拉取
+	MAIL_REASON_VIPLV	= 2;			//VIP等级升级
+}
+
+//拉取系统邮件请求
+message World_GetSystemMail_Request
+{
+	optional uint32 uin = 1;				//玩家的uin
+	optional uint32 uRoleSystemUniqID = 2;	//玩家当前系统邮件ID最大
+	optional int32 iVIPLevel = 3;			//玩家VIP等级
+	optional string strChannel = 4;			//玩家的渠道号
+	optional int32 iFromZoneID = 5;			//玩家所在的Zone
+	optional int32 iReason = 6;				//拉取邮件原因，对应 MailReasonType
+}
+
+//拉取系统邮件返回
+message World_GetSystemMail_Response
+{
+	optional int32 iResult = 1;			//拉取结果
+	optional uint32 uin = 2;			//玩家uin
+	optional uint32 uSystemUniqID = 3;	//系统邮件当前唯一ID最大
+	repeated OneMailInfo stMails = 4;	//拉取到的新邮件
+}
+
+//在线兑换类型
+enum OnlineExchangeType
+{
+	ONLINE_EXCHANGE_INVALID= 0;		//非法的类型
+	ONLINE_EXCHANGE_BILL = 1;		//兑换话费
+	ONLINE_EXCHANGE_MAX = 2;		//兑换类型最大
+}
+
+//在线兑换信息
+message OnlineExchange
+{	
+	optional int32 iItemID = 1;			//在线兑换道具ID
+	optional int32 iItemNum = 2;		//在线兑换道具数量
+	optional int32 iType = 3;			//在线兑换类型，对应OnlineExchangeType
+	optional int32 iExchangeNum = 4;	//在线兑换数量
+	optional string strPhoneNum = 5;	//兑换手机号
+}
+
+//World话费兑换请求
+message World_OnlineExchange_Request
+{
+	optional uint32 uin = 1;			//在线兑换的玩家uin
+	optional int32 iFromZoneID = 2;		//在线兑换玩家的ZoneID
+	optional OnlineExchange stInfo = 3;	//在线兑换信息
+}
+
+//World话费兑换返回
+message World_OnlineExchange_Response
+{
+	optional int32 iResult = 1;			//在线兑换结果
+	optional uint32 uin = 2;			//在线兑换玩家uin
+	optional int32 iFromZoneID = 3;		//玩家的ZoneID
+	optional OnlineExchange stInfo = 4;	//在线兑换信息
+}
+
+//World拉取玩家信息请求
+message World_GetUserInfo_Request
+{
+	optional uint32 uin = 1;			//玩家的数字ID
+	optional int32 iPlatformID = 2;		//拉取的平台ID
+}
+
+//World拉取玩家信息返回
+message World_GetUserInfo_Response
+{
+	optional int32 iResult = 1;			//拉取信息的结果
+	optional string strAccount = 2;		//玩家账号
+	optional uint32 uin = 3;			//玩家的数字ID
+	optional string strNickName = 4;	//玩家的昵称
+	optional int32 iPlatformID = 5;		//拉取的平台ID
+}
+
+//World记录日志的请求
+message World_WriteLog_Request
+{
+	optional int32 iLogTargetType = 1;	//日志目标平台类型，对应LogTargetType
+	optional string strLogData = 2;		//日志内容
+}
+
+//World获取卡密的请求
+message World_GetCardNo_Request
+{
+	optional int32 iExchangeID = 1;		//卡密兑换项目ID
+	optional int32 iCardID = 2;			//获取的卡密项目ID
+	optional uint32 uin = 3;			//获取卡密的玩家uin
+	optional int32 iFromZoneID = 4;		//请求卡密的ZoneID
+}
+
+//World获取卡密的返回
+message World_GetCardNo_Response
+{
+	optional int32 iResult = 1;			//获取卡密的结果
+	optional int32 iExchangeID = 2;		//卡密兑换项目ID
+	optional int32 iCardID = 3;			//获取卡密的项目ID
+	optional uint32 uin = 4;			//获取卡密的玩家uin
+	optional int32 iFromZoneID = 5;		//请求卡密的ZoneID
+	optional string strCardNo = 6;		//获取的卡密卡号
+	optional string strCardPwd = 7;		//获取的卡密密码
+}
+
+//World增加兑换记录的请求
+message World_AddExcRec_Request
+{
+	optional ExchangeRec stRecord = 1;	//更新的兑换记录
+}
+
+//World增加兑换记录的返回
+message World_AddExcRec_Response
+{
+	optional int32 iResult = 1;			//更新的结果
+}

@@ -1,0 +1,35 @@
+[Param]
+IsEnablePlayerLog = 1
+LogPath = ../log/
+LogLevel = 63
+OssLog = 1
+PlayerLog = 0
+StatLog = 0
+
+[module]
+SSKeyChecked = 1
+
+[ModuleSwitch]
+IsFishEnabled = 1
+
+[CodeQueue]
+CodeQueueNum = 1
+CodeQueuePath = ../../../../Common/data/
+GatewayToZoneServer_0 = CQGatewayToZone_0.shm
+ZoneServerToGateway_0 = CQZoneToGateway_0.shm
+
+# 内网服务器通信的Bus
+# ID 格式为 WorldID.ServerType.InstanceID.ZoneID
+[ServerBus]
+ServerBusNum = 1
+
+# Zone to World, Client End
+IsServerEnd_0       = 0
+ServerBusID_0       = #WORLDID#.1.1.1
+ServerBusIP_0		= #SERVERIP#
+ServerBusPort_0		= #ZONE2WORLD#
+
+[MsgLimit]
+MsgLimitFile = ../conf/MsgLimitFile.conf
+[MsgDisable]
+MsgDisableFile = ../conf/MsgDisableFile.conf

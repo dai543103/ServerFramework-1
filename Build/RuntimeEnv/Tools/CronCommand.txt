@@ -1,0 +1,7 @@
+1.ZoneServer 1 ¼à¿Ø£º
+
+* * * * * sleep 10; ~/RuntimeEnv/Tools/ServiceMonitor.sh -Z 1
+* * * * * sleep 20; ~/RuntimeEnv/Tools/ServiceMonitor.sh -Z 1
+* * * * * sleep 30; ~/RuntimeEnv/Tools/ServiceMonitor.sh -Z 1
+* * * * * sleep 40; ~/RuntimeEnv/Tools/ServiceMonitor.sh -Z 1
+* * * * * sleep 50; ~/RuntimeEnv/Tools/ServiceMonitor.sh -Z 1

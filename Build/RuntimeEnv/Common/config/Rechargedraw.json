@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1, 
+    "Type_i": 2, 
+    "Item_i": 10003, 
+    "Number_i": 1, 
+    "Weight_i": 1, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }, 
+  {
+    "Id": 2, 
+    "Type_i": 2, 
+    "Item_i": 10002, 
+    "Number_i": 1, 
+    "Weight_i": 6, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }, 
+  {
+    "Id": 3, 
+    "Type_i": 2, 
+    "Item_i": 10001, 
+    "Number_i": 1, 
+    "Weight_i": 30, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }, 
+  {
+    "Id": 4, 
+    "Type_i": 1, 
+    "Item_i": 1, 
+    "Number_i": 588888, 
+    "Weight_i": 1, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }, 
+  {
+    "Id": 5, 
+    "Type_i": 1, 
+    "Item_i": 1, 
+    "Number_i": 288888, 
+    "Weight_i": 2, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }, 
+  {
+    "Id": 6, 
+    "Type_i": 1, 
+    "Item_i": 1, 
+    "Number_i": 188888, 
+    "Weight_i": 4, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }, 
+  {
+    "Id": 7, 
+    "Type_i": 1, 
+    "Item_i": 1, 
+    "Number_i": 88888, 
+    "Weight_i": 6, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }, 
+  {
+    "Id": 8, 
+    "Type_i": 1, 
+    "Item_i": 1, 
+    "Number_i": 8888, 
+    "Weight_i": 50, 
+    "DayTotal_i": 0, 
+    "Total_i": 0, 
+    "LimitType_i": 1
+  }
+]

@@ -1,0 +1,2 @@
+端口号计算规则为：
+	10000 + WorldID * 1000 + FuncID * 100 + ZoneID*10 + InstanceID

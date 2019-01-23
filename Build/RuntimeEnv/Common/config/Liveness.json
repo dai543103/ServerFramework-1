@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 1, 
+    "Liveness_i": 25, 
+    "Reward_i": 20001
+  }, 
+  {
+    "ID": 2, 
+    "Liveness_i": 50, 
+    "Reward_i": 20002
+  }, 
+  {
+    "ID": 3, 
+    "Liveness_i": 75, 
+    "Reward_i": 20003
+  }, 
+  {
+    "ID": 4, 
+    "Liveness_i": 100, 
+    "Reward_i": 20004
+  }
+]

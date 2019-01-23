@@ -1,0 +1,203 @@
+//该文件用于存放一些通用的结构体定义和变量定义
+
+//游戏的聊天频道
+enum ChatChannelType
+{
+	CHAT_CHANNEL_INVALID = 0;		//非法的聊天频道
+	CHAT_CHANNEL_WORLD = 1;			//世界聊天
+	CHAT_CHANNEL_PRIVATE = 2;		//私聊
+	CHAT_CHANNEL_SYSTEM = 3;		//系统消息
+}
+
+//单个区服务器的信息
+message ZoneInfo
+{
+	optional uint32 uZoneID = 1;			//区服务器的ID
+	optional string strZoneName = 2;		//区服务器的名字
+	optional uint32 uZoneState = 3;			//区服务器的繁忙状态
+	optional string strZoneIP = 4;			//区服务器的IP
+	optional uint32 uZonePort = 5;			//区服务器的端口
+}
+
+//名字服务器中存储的名字类型
+enum enNameType
+{
+	EN_NAME_TYPE_INVALID = 0;	//非法的添加名字类型
+	EN_NAME_TYPE_ROLE = 1;		//玩家角色的名字
+	EN_NAME_TYPE_MAX = 2;		//最大的名字类型
+}
+
+//邮件类型
+enum MailType
+{
+	MAIL_TYPE_INVALID = 0;	//非法的邮件类型
+	MAIL_TYPE_NORMAL = 1;	//普通邮件
+	MAIL_TYPE_APPENDIX = 2;	//附件邮件
+}
+
+//邮件发送类型
+enum MailSendType
+{
+	MAIL_SEND_INVALID = 0;			//非法的发送类型
+	MAIL_SEND_ITEMGIFT = 1;			//发送赠送邮件
+	MAIL_SEND_APPENDIXTEST= 2;		//测试附件邮件
+	MAIL_SEND_NORMAILTEST = 3;		//测试普通邮件
+	MAIL_SEND_REPFULL = 4;			//发送背包满邮件
+	MAIL_SEND_VIPGIFT = 5;			//发送贵族礼包邮件
+	MAIL_SEND_SCOREDAY = 6;			//发送捕鱼积分日榜邮件
+	MAIL_SEND_SCOREWEEK = 7;		//发送捕鱼积分周榜邮件
+	MAIL_SEND_MONTHCARD = 8;		//发送月卡礼包邮件
+	MAIL_SEND_GMNORMAL = 9;			//发送不带附件GM邮件
+	MAIL_SEND_GMAPPENDIX = 10;		//发送带附件GM邮件
+	MAIL_SEND_CARDNO = 11;			//发送卡密邮件
+}
+
+//邮件状态
+enum MailStatType
+{
+	MAIL_STAT_INVALID = 0;			//非法的邮件类型
+	MAIL_STAT_NOTREAD = 1;			//未阅读
+	MAIL_STAT_READ = 2;				//已阅读
+	MAIL_STAT_GETAPPENDIX = 3;		//已领取附件
+}
+
+//排行榜类型
+enum RankType
+{
+	RANK_TYPE_INVALID		= 0;	//非法的类型
+	RANK_TYPE_MONEY			= 1;	//金币排行榜
+	RANK_TYPE_WARHEAD		= 2;	//弹头排行榜
+	RANK_TYPE_DAYSCORE		= 3;	//日积分排行榜
+	RANK_TYPE_WEEKSCORE		= 4;	//周积分排行榜
+	RANK_TYPE_MAX			= 5;	//排行榜最大，程序使用
+}
+
+//大转盘状态类型
+enum StepType
+{
+	LASVEGAS_STEP_INVALID	= 0;	//非法的阶段
+	LASVEGAS_STEP_BET		= 1;	//下注阶段
+	LASVEGAS_STEP_LOTTERY	= 2;	//开奖阶段
+}
+
+//日志目标类型
+enum LogTargetType
+{
+	LOG_TARGET_INVALID	= 0;		//非法的目标
+	LOG_TARGET_MOFANG	= 1;		//输出到魔方
+	LOG_TARGET_TAPDB	= 2;		//输出到TapDB
+	LOG_TARGET_MAX		= 3;		//目标类型最大
+}
+
+//区服务器列表信息
+message ZoneList
+{
+	repeated ZoneInfo stZoneInfos = 1;		//拉取到的分区信息
+}
+
+//玩家角色ID
+message RoleID
+{
+	optional uint32 uin = 1;				//玩家角色的UIN
+	optional uint32 uiSeq = 2;				//玩家角色的序号
+}
+
+//登出服务器的请求
+message LogoutServer_Request
+{
+	optional uint32 uin = 1;				//登出的玩家的uin
+	optional uint32 uReason = 2;			//玩家登出的原因
+}
+
+//玩家登出原因
+enum LogoutReasonType
+{
+	LOGOUT_REASON_INVALID	= 0;			//非法的类型
+	LOGOUT_REASON_NORMAL	= 1;			//正常下线
+	LOGOUT_REASON_KICKED	= 2;			//被踢下线
+	LOGOUT_REASON_WALLOW	= 3;			//防沉迷
+}
+
+//登出服务器的返回
+message LogoutServer_Response
+{
+	optional int32 iResult = 1;				//登出服务器请求的结果
+	optional int32 iReason = 2;				//玩家登出原因,对应LogoutReasonType
+	optional int32 iRealNameStat = 3;		//玩家实名认证状态
+}
+
+//新增名字的请求
+message AddNewName_Request
+{
+	optional string strName = 1;			//新增加的名字
+	optional int32 iType = 2;				//新增加名字的类型,角色的名字还是公会的名字
+	optional uint32 name_id = 3;			//名字对应的ID，为角色UIN或者公会ID
+}
+
+//新增名字的返回
+message AddNewName_Response
+{
+	optional int32 iResult = 1;				//新增名字的处理返回结果
+	optional int32 iType = 2;				//增加的名字的类型
+	optional uint32 name_id = 3;			//名字对应的ID，为角色的UIN或者公会ID
+	optional string strName = 4;			//新增加的名字
+}
+
+//删除名字的请求
+message DeleteName_Request
+{
+	optional string strName = 1;			//要删除的名字
+	optional int32 iType = 2;				//要删除的名字类型
+}
+
+//删除名字的返回
+message DeleteName_Response
+{
+	optional int32 iResult = 1;				//删除名字的处理返回结果
+}
+
+//单个排行榜信息
+message RankInfo
+{
+	optional int32 iRankNum = 1;		//玩家排行
+	optional uint32 uin = 2;			//玩家uin
+	optional string szNickName = 3;		//玩家名字
+	optional string strPicID = 4;		//玩家头像ID
+	optional int32 iVIPLevel = 5;		//玩家VIP等级
+	optional int64 iNum = 6;			//玩家数量，金币或者弹头等
+	optional string strSign = 7;		//玩家的签名
+}
+
+//转盘中奖信息
+message PrizeInfo
+{	
+	optional string strName = 1;				//中奖人名字
+	optional int32 iNumber = 2;					//压中的数字
+	optional int32 iRewardCoins = 3;			//中奖获得的金币
+	optional int32 iIndex = 4;					//中奖列表中的排序，从1开始
+}
+
+//单个数字下注信息
+message NumberBetInfo
+{
+	optional int32 iNumber = 1;					//下注数字
+	optional int64 lBetCoins = 2;				//下注金额
+}
+
+//大转盘信息
+message LasvegasInfo
+{
+	optional int32 iStepType = 2;                           //当前阶段，对应StepType
+	optional int32 iStepEndTime = 3;                        //当前阶段结束时间
+	repeated int32 iLotteryIDs = 4;                         //开奖信息
+	repeated PrizeInfo stPrizes = 5;                        //中奖信息
+	repeated NumberBetInfo stBets = 6;                      //下注信息
+}
+
+//玩家兑换记录
+message ExchangeRec
+{
+	optional int32 iTime = 1;       //兑换的日期
+	optional string strName = 2;    //兑换玩家名字
+	optional int32 iExchangeID = 3; //兑换的ID
+}

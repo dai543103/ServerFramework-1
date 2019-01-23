@@ -1,0 +1,48 @@
+[Param]
+LogPath = ../log/
+LogLevel = 63
+OssLog = 1
+PlayerLog = 0
+StatLog = 0
+
+# 内网服务器通信的Bus
+# ID 格式为 WorldID.ServerType.InstanceID.ZoneID
+[ServerBus]
+ServerBusNum = 6
+
+# Zone to World, Server End
+IsServerEnd_0   = 1
+ServerBusID_0   = #WORLDID#.2.1.1
+ServerBusIP_0   = #SERVERIP#
+ServerBusPort_0 = #ZONE2WORLD#
+
+# RechargeServer to World, Server End
+IsServerEnd_1   = 1
+ServerBusID_1   = #WORLDID#.8.1.0
+ServerBusIP_1   = #SERVERIP#
+ServerBusPort_1 = #RECHARGE2WORLD#
+
+#World to RoleDB, Client End
+IsServerEnd_2	= 0
+ServerBusID_2   = #WORLDID#.3.1.0
+ServerBusIP_2   = #SERVERIP#
+ServerBusPort_2 = #WORLD2ROLEDB#
+
+# World to NameDB, Client End
+IsServerEnd_3   = 0
+ServerBusID_3   = #WORLDID#.7.1.0
+ServerBusIP_3   = #SERVERIP#
+ServerBusPort_3 = #WORLD2NAMEDB#
+
+# World to Exchange, Client End
+IsServerEnd_4   = 0
+ServerBusID_4   = #WORLDID#.10.1.0
+ServerBusIP_4   = #SERVERIP#
+ServerBusPort_4 = #WORLD2EXCHANGE#
+
+# World to LogServer, Client End
+IsServerEnd_5   = 0
+ServerBusID_5   = #WORLDID#.11.1.0
+ServerBusIP_5   = #SERVERIP#
+ServerBusPort_5 = #WORLD2LOGSERVER#
+

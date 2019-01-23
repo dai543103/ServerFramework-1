@@ -1,0 +1,4642 @@
+[
+  {
+    "Id": 1, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 2, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 2, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 3, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 4, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 4, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 5, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 6, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 7, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 8, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 8, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 9, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 10, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 10, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 11, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 12, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 12, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 13, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 13, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 14, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 14, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 15, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 16, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 16, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 17, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 17, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 18, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 18, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 19, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 20, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 20, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 21, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 22, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 22, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 23, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 24, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 25, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 26, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 26, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 27, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 28, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 28, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 29, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 30, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 30, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 31, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 31, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 32, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 32, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 33, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 34, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 34, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 35, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 35, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 36, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 36, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 37, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 38, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 38, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 39, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 40, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 40, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 41, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 42, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 43, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 44, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 44, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 45, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 46, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 46, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 47, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 48, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 48, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 49, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 49, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 50, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 50, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 51, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 52, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 52, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 53, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 53, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 54, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 54, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 55, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 56, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 56, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 57, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 58, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 58, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 59, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 60, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 61, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 62, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 62, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 63, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 64, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 64, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 65, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 66, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 66, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 67, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 67, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 68, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 68, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 69, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 70, 
+    "IsBegin_i": 1
+  }, 
+  {
+    "Id": 70, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 71, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 71, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 72, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 72, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 1, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 73, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 74, 
+    "IsBegin_i": 74
+  }, 
+  {
+    "Id": 74, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 75, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 76, 
+    "IsBegin_i": 76
+  }, 
+  {
+    "Id": 76, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 77, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 78, 
+    "IsBegin_i": 78
+  }, 
+  {
+    "Id": 78, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 79, 
+    "Numbermax_i": 840, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 80, 
+    "IsBegin_i": 80
+  }, 
+  {
+    "Id": 80, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 81, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 82, 
+    "IsBegin_i": 82
+  }, 
+  {
+    "Id": 82, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 83, 
+    "IsBegin_i": 83
+  }, 
+  {
+    "Id": 83, 
+    "Numbermax_i": 1560, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 84, 
+    "IsBegin_i": 84
+  }, 
+  {
+    "Id": 84, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 85, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 86, 
+    "IsBegin_i": 86
+  }, 
+  {
+    "Id": 86, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 87, 
+    "IsBegin_i": 87
+  }, 
+  {
+    "Id": 87, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 88, 
+    "IsBegin_i": 88
+  }, 
+  {
+    "Id": 88, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 89, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 90, 
+    "IsBegin_i": 90
+  }, 
+  {
+    "Id": 90, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 91, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 92, 
+    "IsBegin_i": 92
+  }, 
+  {
+    "Id": 92, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 93, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 94, 
+    "IsBegin_i": 94
+  }, 
+  {
+    "Id": 94, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 95, 
+    "Numbermax_i": 840, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 96, 
+    "IsBegin_i": 96
+  }, 
+  {
+    "Id": 96, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 97, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 98, 
+    "IsBegin_i": 98
+  }, 
+  {
+    "Id": 98, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 99, 
+    "IsBegin_i": 99
+  }, 
+  {
+    "Id": 99, 
+    "Numbermax_i": 1560, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 100, 
+    "IsBegin_i": 100
+  }, 
+  {
+    "Id": 100, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 101, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 102, 
+    "IsBegin_i": 102
+  }, 
+  {
+    "Id": 102, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 103, 
+    "IsBegin_i": 103
+  }, 
+  {
+    "Id": 103, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 104, 
+    "IsBegin_i": 104
+  }, 
+  {
+    "Id": 104, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 105, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 106, 
+    "IsBegin_i": 106
+  }, 
+  {
+    "Id": 106, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 107, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 108, 
+    "IsBegin_i": 108
+  }, 
+  {
+    "Id": 108, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 109, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 110, 
+    "IsBegin_i": 110
+  }, 
+  {
+    "Id": 110, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 111, 
+    "Numbermax_i": 840, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 112, 
+    "IsBegin_i": 112
+  }, 
+  {
+    "Id": 112, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 113, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 114, 
+    "IsBegin_i": 114
+  }, 
+  {
+    "Id": 114, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 115, 
+    "IsBegin_i": 115
+  }, 
+  {
+    "Id": 115, 
+    "Numbermax_i": 1560, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 116, 
+    "IsBegin_i": 116
+  }, 
+  {
+    "Id": 116, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 117, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 118, 
+    "IsBegin_i": 118
+  }, 
+  {
+    "Id": 118, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 119, 
+    "IsBegin_i": 119
+  }, 
+  {
+    "Id": 119, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 120, 
+    "IsBegin_i": 120
+  }, 
+  {
+    "Id": 120, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 121, 
+    "Numbermax_i": 1680, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 122, 
+    "IsBegin_i": 122
+  }, 
+  {
+    "Id": 122, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 123, 
+    "Numbermax_i": 720, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 124, 
+    "IsBegin_i": 124
+  }, 
+  {
+    "Id": 124, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 125, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 126, 
+    "IsBegin_i": 126
+  }, 
+  {
+    "Id": 126, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 127, 
+    "Numbermax_i": 840, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 128, 
+    "IsBegin_i": 128
+  }, 
+  {
+    "Id": 128, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 129, 
+    "Numbermax_i": 360, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 130, 
+    "IsBegin_i": 130
+  }, 
+  {
+    "Id": 130, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 131, 
+    "IsBegin_i": 131
+  }, 
+  {
+    "Id": 131, 
+    "Numbermax_i": 1560, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 132, 
+    "IsBegin_i": 132
+  }, 
+  {
+    "Id": 132, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 133, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 134, 
+    "IsBegin_i": 134
+  }, 
+  {
+    "Id": 134, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 135, 
+    "IsBegin_i": 135
+  }, 
+  {
+    "Id": 135, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 136, 
+    "IsBegin_i": 136
+  }, 
+  {
+    "Id": 136, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 2, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 137, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 138, 
+    "IsBegin_i": 138
+  }, 
+  {
+    "Id": 138, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 139, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 140, 
+    "IsBegin_i": 140
+  }, 
+  {
+    "Id": 140, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 141, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 142, 
+    "IsBegin_i": 142
+  }, 
+  {
+    "Id": 142, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 143, 
+    "Numbermax_i": 750, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 144, 
+    "IsBegin_i": 144
+  }, 
+  {
+    "Id": 144, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 145, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 146, 
+    "IsBegin_i": 146
+  }, 
+  {
+    "Id": 146, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 147, 
+    "IsBegin_i": 147
+  }, 
+  {
+    "Id": 147, 
+    "Numbermax_i": 1650, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 148, 
+    "IsBegin_i": 148
+  }, 
+  {
+    "Id": 148, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 149, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 150, 
+    "IsBegin_i": 150
+  }, 
+  {
+    "Id": 150, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 151, 
+    "IsBegin_i": 151
+  }, 
+  {
+    "Id": 151, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 152, 
+    "IsBegin_i": 152
+  }, 
+  {
+    "Id": 152, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 153, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 154, 
+    "IsBegin_i": 154
+  }, 
+  {
+    "Id": 154, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 155, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 156, 
+    "IsBegin_i": 156
+  }, 
+  {
+    "Id": 156, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 157, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 158, 
+    "IsBegin_i": 158
+  }, 
+  {
+    "Id": 158, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 159, 
+    "Numbermax_i": 750, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 160, 
+    "IsBegin_i": 160
+  }, 
+  {
+    "Id": 160, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 161, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 162, 
+    "IsBegin_i": 162
+  }, 
+  {
+    "Id": 162, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 163, 
+    "IsBegin_i": 163
+  }, 
+  {
+    "Id": 163, 
+    "Numbermax_i": 1650, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 164, 
+    "IsBegin_i": 164
+  }, 
+  {
+    "Id": 164, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 165, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 166, 
+    "IsBegin_i": 166
+  }, 
+  {
+    "Id": 166, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 167, 
+    "IsBegin_i": 167
+  }, 
+  {
+    "Id": 167, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 168, 
+    "IsBegin_i": 168
+  }, 
+  {
+    "Id": 168, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 169, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 170, 
+    "IsBegin_i": 170
+  }, 
+  {
+    "Id": 170, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 171, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 172, 
+    "IsBegin_i": 172
+  }, 
+  {
+    "Id": 172, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 173, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 174, 
+    "IsBegin_i": 174
+  }, 
+  {
+    "Id": 174, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 175, 
+    "Numbermax_i": 750, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 176, 
+    "IsBegin_i": 176
+  }, 
+  {
+    "Id": 176, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 177, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 178, 
+    "IsBegin_i": 178
+  }, 
+  {
+    "Id": 178, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 179, 
+    "IsBegin_i": 179
+  }, 
+  {
+    "Id": 179, 
+    "Numbermax_i": 1650, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 180, 
+    "IsBegin_i": 180
+  }, 
+  {
+    "Id": 180, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 181, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 182, 
+    "IsBegin_i": 182
+  }, 
+  {
+    "Id": 182, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 183, 
+    "IsBegin_i": 183
+  }, 
+  {
+    "Id": 183, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 184, 
+    "IsBegin_i": 184
+  }, 
+  {
+    "Id": 184, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 185, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 186, 
+    "IsBegin_i": 186
+  }, 
+  {
+    "Id": 186, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 187, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 188, 
+    "IsBegin_i": 188
+  }, 
+  {
+    "Id": 188, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 189, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 190, 
+    "IsBegin_i": 190
+  }, 
+  {
+    "Id": 190, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 191, 
+    "Numbermax_i": 750, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 192, 
+    "IsBegin_i": 192
+  }, 
+  {
+    "Id": 192, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 193, 
+    "Numbermax_i": 450, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 194, 
+    "IsBegin_i": 194
+  }, 
+  {
+    "Id": 194, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 195, 
+    "IsBegin_i": 195
+  }, 
+  {
+    "Id": 195, 
+    "Numbermax_i": 1650, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 196, 
+    "IsBegin_i": 196
+  }, 
+  {
+    "Id": 196, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 197, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 198, 
+    "IsBegin_i": 198
+  }, 
+  {
+    "Id": 198, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 199, 
+    "IsBegin_i": 199
+  }, 
+  {
+    "Id": 199, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 200, 
+    "IsBegin_i": 200
+  }, 
+  {
+    "Id": 200, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 3, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 201, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 202, 
+    "IsBegin_i": 202
+  }, 
+  {
+    "Id": 202, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 203, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 204, 
+    "IsBegin_i": 204
+  }, 
+  {
+    "Id": 204, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 205, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 206, 
+    "IsBegin_i": 206
+  }, 
+  {
+    "Id": 206, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 207, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 208, 
+    "IsBegin_i": 208
+  }, 
+  {
+    "Id": 208, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 209, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 210, 
+    "IsBegin_i": 210
+  }, 
+  {
+    "Id": 210, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 211, 
+    "IsBegin_i": 211
+  }, 
+  {
+    "Id": 211, 
+    "Numbermax_i": 1800, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 212, 
+    "IsBegin_i": 212
+  }, 
+  {
+    "Id": 212, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 213, 
+    "Numbermax_i": 300, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 214, 
+    "IsBegin_i": 214
+  }, 
+  {
+    "Id": 214, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 215, 
+    "IsBegin_i": 215
+  }, 
+  {
+    "Id": 215, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 216, 
+    "IsBegin_i": 216
+  }, 
+  {
+    "Id": 216, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 217, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 218, 
+    "IsBegin_i": 218
+  }, 
+  {
+    "Id": 218, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 219, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 220, 
+    "IsBegin_i": 220
+  }, 
+  {
+    "Id": 220, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 221, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 222, 
+    "IsBegin_i": 222
+  }, 
+  {
+    "Id": 222, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 223, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 224, 
+    "IsBegin_i": 224
+  }, 
+  {
+    "Id": 224, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 225, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 226, 
+    "IsBegin_i": 226
+  }, 
+  {
+    "Id": 226, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 227, 
+    "IsBegin_i": 227
+  }, 
+  {
+    "Id": 227, 
+    "Numbermax_i": 1800, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 228, 
+    "IsBegin_i": 228
+  }, 
+  {
+    "Id": 228, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 229, 
+    "Numbermax_i": 300, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 230, 
+    "IsBegin_i": 230
+  }, 
+  {
+    "Id": 230, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 231, 
+    "IsBegin_i": 231
+  }, 
+  {
+    "Id": 231, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 232, 
+    "IsBegin_i": 232
+  }, 
+  {
+    "Id": 232, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 233, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 234, 
+    "IsBegin_i": 234
+  }, 
+  {
+    "Id": 234, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 235, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 236, 
+    "IsBegin_i": 236
+  }, 
+  {
+    "Id": 236, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 237, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 238, 
+    "IsBegin_i": 238
+  }, 
+  {
+    "Id": 238, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 239, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 240, 
+    "IsBegin_i": 240
+  }, 
+  {
+    "Id": 240, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 241, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 242, 
+    "IsBegin_i": 242
+  }, 
+  {
+    "Id": 242, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 243, 
+    "IsBegin_i": 243
+  }, 
+  {
+    "Id": 243, 
+    "Numbermax_i": 1800, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 244, 
+    "IsBegin_i": 244
+  }, 
+  {
+    "Id": 244, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 245, 
+    "Numbermax_i": 300, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 246, 
+    "IsBegin_i": 246
+  }, 
+  {
+    "Id": 246, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 247, 
+    "IsBegin_i": 247
+  }, 
+  {
+    "Id": 247, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 248, 
+    "IsBegin_i": 248
+  }, 
+  {
+    "Id": 248, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 249, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 250, 
+    "IsBegin_i": 250
+  }, 
+  {
+    "Id": 250, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 251, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 252, 
+    "IsBegin_i": 252
+  }, 
+  {
+    "Id": 252, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 253, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 254, 
+    "IsBegin_i": 254
+  }, 
+  {
+    "Id": 254, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 255, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 256, 
+    "IsBegin_i": 256
+  }, 
+  {
+    "Id": 256, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 257, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 258, 
+    "IsBegin_i": 258
+  }, 
+  {
+    "Id": 258, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 259, 
+    "IsBegin_i": 259
+  }, 
+  {
+    "Id": 259, 
+    "Numbermax_i": 1800, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 260, 
+    "IsBegin_i": 260
+  }, 
+  {
+    "Id": 260, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 261, 
+    "Numbermax_i": 300, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 262, 
+    "IsBegin_i": 262
+  }, 
+  {
+    "Id": 262, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 263, 
+    "IsBegin_i": 263
+  }, 
+  {
+    "Id": 263, 
+    "Numbermax_i": 900, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 264, 
+    "IsBegin_i": 264
+  }, 
+  {
+    "Id": 264, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 4, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 265, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 266, 
+    "IsBegin_i": 266
+  }, 
+  {
+    "Id": 266, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 267, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 268, 
+    "IsBegin_i": 268
+  }, 
+  {
+    "Id": 268, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 269, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 270, 
+    "IsBegin_i": 270
+  }, 
+  {
+    "Id": 270, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 271, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 272, 
+    "IsBegin_i": 272
+  }, 
+  {
+    "Id": 272, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 273, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 274, 
+    "IsBegin_i": 274
+  }, 
+  {
+    "Id": 274, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 275, 
+    "IsBegin_i": 275
+  }, 
+  {
+    "Id": 275, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 276, 
+    "IsBegin_i": 276
+  }, 
+  {
+    "Id": 276, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 277, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 278, 
+    "IsBegin_i": 278
+  }, 
+  {
+    "Id": 278, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 279, 
+    "IsBegin_i": 279
+  }, 
+  {
+    "Id": 279, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 280, 
+    "IsBegin_i": 280
+  }, 
+  {
+    "Id": 280, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 281, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 282, 
+    "IsBegin_i": 282
+  }, 
+  {
+    "Id": 282, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 283, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 284, 
+    "IsBegin_i": 284
+  }, 
+  {
+    "Id": 284, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 285, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 286, 
+    "IsBegin_i": 286
+  }, 
+  {
+    "Id": 286, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 287, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 288, 
+    "IsBegin_i": 288
+  }, 
+  {
+    "Id": 288, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 289, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 290, 
+    "IsBegin_i": 290
+  }, 
+  {
+    "Id": 290, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 291, 
+    "IsBegin_i": 291
+  }, 
+  {
+    "Id": 291, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 292, 
+    "IsBegin_i": 292
+  }, 
+  {
+    "Id": 292, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 293, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 294, 
+    "IsBegin_i": 294
+  }, 
+  {
+    "Id": 294, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 295, 
+    "IsBegin_i": 295
+  }, 
+  {
+    "Id": 295, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 296, 
+    "IsBegin_i": 296
+  }, 
+  {
+    "Id": 296, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 297, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 298, 
+    "IsBegin_i": 298
+  }, 
+  {
+    "Id": 298, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 299, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 300, 
+    "IsBegin_i": 300
+  }, 
+  {
+    "Id": 300, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 301, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 302, 
+    "IsBegin_i": 302
+  }, 
+  {
+    "Id": 302, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 303, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 304, 
+    "IsBegin_i": 304
+  }, 
+  {
+    "Id": 304, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 305, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 306, 
+    "IsBegin_i": 306
+  }, 
+  {
+    "Id": 306, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 307, 
+    "IsBegin_i": 307
+  }, 
+  {
+    "Id": 307, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 308, 
+    "IsBegin_i": 308
+  }, 
+  {
+    "Id": 308, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 309, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 310, 
+    "IsBegin_i": 310
+  }, 
+  {
+    "Id": 310, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 311, 
+    "IsBegin_i": 311
+  }, 
+  {
+    "Id": 311, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 312, 
+    "IsBegin_i": 312
+  }, 
+  {
+    "Id": 312, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 313, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 314, 
+    "IsBegin_i": 314
+  }, 
+  {
+    "Id": 314, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 315, 
+    "Numbermax_i": 1600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 316, 
+    "IsBegin_i": 316
+  }, 
+  {
+    "Id": 316, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 317, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 318, 
+    "IsBegin_i": 318
+  }, 
+  {
+    "Id": 318, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 319, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 320, 
+    "IsBegin_i": 320
+  }, 
+  {
+    "Id": 320, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 321, 
+    "Numbermax_i": 800, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 322, 
+    "IsBegin_i": 322
+  }, 
+  {
+    "Id": 322, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 323, 
+    "IsBegin_i": 323
+  }, 
+  {
+    "Id": 323, 
+    "Numbermax_i": 2000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 324, 
+    "IsBegin_i": 324
+  }, 
+  {
+    "Id": 324, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 325, 
+    "Numbermax_i": 400, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 326, 
+    "IsBegin_i": 326
+  }, 
+  {
+    "Id": 326, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 327, 
+    "IsBegin_i": 327
+  }, 
+  {
+    "Id": 327, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 328, 
+    "IsBegin_i": 328
+  }, 
+  {
+    "Id": 328, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 5, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 329, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 330, 
+    "IsBegin_i": 330
+  }, 
+  {
+    "Id": 330, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 331, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 332, 
+    "IsBegin_i": 332
+  }, 
+  {
+    "Id": 332, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 333, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 334, 
+    "IsBegin_i": 334
+  }, 
+  {
+    "Id": 334, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 335, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 336, 
+    "IsBegin_i": 336
+  }, 
+  {
+    "Id": 336, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 337, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 338, 
+    "IsBegin_i": 338
+  }, 
+  {
+    "Id": 338, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 339, 
+    "IsBegin_i": 339
+  }, 
+  {
+    "Id": 339, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 340, 
+    "IsBegin_i": 340
+  }, 
+  {
+    "Id": 340, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 341, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 342, 
+    "IsBegin_i": 342
+  }, 
+  {
+    "Id": 342, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 343, 
+    "IsBegin_i": 343
+  }, 
+  {
+    "Id": 343, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 344, 
+    "IsBegin_i": 344
+  }, 
+  {
+    "Id": 344, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 345, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 346, 
+    "IsBegin_i": 346
+  }, 
+  {
+    "Id": 346, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 347, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 348, 
+    "IsBegin_i": 348
+  }, 
+  {
+    "Id": 348, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 349, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 350, 
+    "IsBegin_i": 350
+  }, 
+  {
+    "Id": 350, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 351, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 352, 
+    "IsBegin_i": 352
+  }, 
+  {
+    "Id": 352, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 353, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 354, 
+    "IsBegin_i": 354
+  }, 
+  {
+    "Id": 354, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 355, 
+    "IsBegin_i": 355
+  }, 
+  {
+    "Id": 355, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 356, 
+    "IsBegin_i": 356
+  }, 
+  {
+    "Id": 356, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 357, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 358, 
+    "IsBegin_i": 358
+  }, 
+  {
+    "Id": 358, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 359, 
+    "IsBegin_i": 359
+  }, 
+  {
+    "Id": 359, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 360, 
+    "IsBegin_i": 360
+  }, 
+  {
+    "Id": 360, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 361, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 362, 
+    "IsBegin_i": 362
+  }, 
+  {
+    "Id": 362, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 363, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 364, 
+    "IsBegin_i": 364
+  }, 
+  {
+    "Id": 364, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 365, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 366, 
+    "IsBegin_i": 366
+  }, 
+  {
+    "Id": 366, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 367, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 368, 
+    "IsBegin_i": 368
+  }, 
+  {
+    "Id": 368, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 369, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 370, 
+    "IsBegin_i": 370
+  }, 
+  {
+    "Id": 370, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 371, 
+    "IsBegin_i": 371
+  }, 
+  {
+    "Id": 371, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 372, 
+    "IsBegin_i": 372
+  }, 
+  {
+    "Id": 372, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 373, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 374, 
+    "IsBegin_i": 374
+  }, 
+  {
+    "Id": 374, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 375, 
+    "IsBegin_i": 375
+  }, 
+  {
+    "Id": 375, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 376, 
+    "IsBegin_i": 376
+  }, 
+  {
+    "Id": 376, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 377, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 378, 
+    "IsBegin_i": 378
+  }, 
+  {
+    "Id": 378, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 379, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 380, 
+    "IsBegin_i": 380
+  }, 
+  {
+    "Id": 380, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 381, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 382, 
+    "IsBegin_i": 382
+  }, 
+  {
+    "Id": 382, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 383, 
+    "Numbermax_i": 240, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 384, 
+    "IsBegin_i": 384
+  }, 
+  {
+    "Id": 384, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 385, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 386, 
+    "IsBegin_i": 386
+  }, 
+  {
+    "Id": 386, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 387, 
+    "IsBegin_i": 387
+  }, 
+  {
+    "Id": 387, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 388, 
+    "IsBegin_i": 388
+  }, 
+  {
+    "Id": 388, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 389, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 390, 
+    "IsBegin_i": 390
+  }, 
+  {
+    "Id": 390, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 391, 
+    "IsBegin_i": 391
+  }, 
+  {
+    "Id": 391, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 392, 
+    "IsBegin_i": 392
+  }, 
+  {
+    "Id": 392, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 6, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 393, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 394, 
+    "IsBegin_i": 394
+  }, 
+  {
+    "Id": 394, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 395, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 396, 
+    "IsBegin_i": 396
+  }, 
+  {
+    "Id": 396, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 397, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 398, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 399, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 400, 
+    "IsBegin_i": 400
+  }, 
+  {
+    "Id": 400, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 401, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 402, 
+    "IsBegin_i": 402
+  }, 
+  {
+    "Id": 402, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 403, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 404, 
+    "IsBegin_i": 404
+  }, 
+  {
+    "Id": 404, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 405, 
+    "IsBegin_i": 405
+  }, 
+  {
+    "Id": 405, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 406, 
+    "IsBegin_i": 406
+  }, 
+  {
+    "Id": 406, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 407, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 408, 
+    "IsBegin_i": 408
+  }, 
+  {
+    "Id": 408, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 409, 
+    "IsBegin_i": 409
+  }, 
+  {
+    "Id": 409, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 410, 
+    "IsBegin_i": 410
+  }, 
+  {
+    "Id": 410, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 1, 
+    "Standard_i": 50, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 411, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 412, 
+    "IsBegin_i": 412
+  }, 
+  {
+    "Id": 412, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 413, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 414, 
+    "IsBegin_i": 414
+  }, 
+  {
+    "Id": 414, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 415, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 416, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 417, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 418, 
+    "IsBegin_i": 418
+  }, 
+  {
+    "Id": 418, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 419, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 420, 
+    "IsBegin_i": 420
+  }, 
+  {
+    "Id": 420, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 421, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 422, 
+    "IsBegin_i": 422
+  }, 
+  {
+    "Id": 422, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 423, 
+    "IsBegin_i": 423
+  }, 
+  {
+    "Id": 423, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 424, 
+    "IsBegin_i": 424
+  }, 
+  {
+    "Id": 424, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 425, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 426, 
+    "IsBegin_i": 426
+  }, 
+  {
+    "Id": 426, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 427, 
+    "IsBegin_i": 427
+  }, 
+  {
+    "Id": 427, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 428, 
+    "IsBegin_i": 428
+  }, 
+  {
+    "Id": 428, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 2, 
+    "Standard_i": 300, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 429, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 430, 
+    "IsBegin_i": 430
+  }, 
+  {
+    "Id": 430, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 431, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 432, 
+    "IsBegin_i": 432
+  }, 
+  {
+    "Id": 432, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 433, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 434, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 435, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 436, 
+    "IsBegin_i": 436
+  }, 
+  {
+    "Id": 436, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 437, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 438, 
+    "IsBegin_i": 438
+  }, 
+  {
+    "Id": 438, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 439, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 440, 
+    "IsBegin_i": 440
+  }, 
+  {
+    "Id": 440, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 441, 
+    "IsBegin_i": 441
+  }, 
+  {
+    "Id": 441, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 442, 
+    "IsBegin_i": 442
+  }, 
+  {
+    "Id": 442, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 443, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 444, 
+    "IsBegin_i": 444
+  }, 
+  {
+    "Id": 444, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 445, 
+    "IsBegin_i": 445
+  }, 
+  {
+    "Id": 445, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 446, 
+    "IsBegin_i": 446
+  }, 
+  {
+    "Id": 446, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 3, 
+    "Standard_i": 3000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 447, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 448, 
+    "IsBegin_i": 448
+  }, 
+  {
+    "Id": 448, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 449, 
+    "Numbermax_i": 1920, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 450, 
+    "IsBegin_i": 450
+  }, 
+  {
+    "Id": 450, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 451, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 452, 
+    "IsBegin_i": 452
+  }, 
+  {
+    "Id": 452, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 453, 
+    "IsBegin_i": 453
+  }, 
+  {
+    "Id": 453, 
+    "Numbermax_i": 1000, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 454, 
+    "IsBegin_i": 454
+  }, 
+  {
+    "Id": 454, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 455, 
+    "Numbermax_i": 200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 456, 
+    "IsBegin_i": 456
+  }, 
+  {
+    "Id": 456, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 457, 
+    "IsBegin_i": 457
+  }, 
+  {
+    "Id": 457, 
+    "Numbermax_i": 960, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 458, 
+    "IsBegin_i": 458
+  }, 
+  {
+    "Id": 458, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 459, 
+    "Numbermax_i": 2160, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 460, 
+    "IsBegin_i": 460
+  }, 
+  {
+    "Id": 460, 
+    "Numbermax_i": 2400, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 461, 
+    "Numbermax_i": 480, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 462, 
+    "IsBegin_i": 462
+  }, 
+  {
+    "Id": 462, 
+    "Numbermax_i": 600, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 463, 
+    "Numbermax_i": 1080, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }, 
+  {
+    "Id": 464, 
+    "Numbermax_i": 1200, 
+    "Add_i": 0, 
+    "Type_i": 7, 
+    "Algorithmtype_i": 4, 
+    "Standard_i": 10000, 
+    "Next_i": 0, 
+    "IsBegin_i": 0
+  }
+]

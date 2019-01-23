@@ -1,0 +1,30 @@
+[
+  {
+    "Type_i": 1, 
+    "Value_i": 10000
+  }, 
+  {
+    "Type_i": 2, 
+    "Value_i": 1
+  }, 
+  {
+    "Type_i": 3, 
+    "Value_i": 1
+  }, 
+  {
+    "Type_i": 4, 
+    "Value_i": 5
+  }, 
+  {
+    "Type_i": 5, 
+    "Value_i": 1
+  }, 
+  {
+    "Type_i": 6, 
+    "Value_i": 1
+  }, 
+  {
+    "Type_i": 7, 
+    "Value_i": 20202
+  }
+]

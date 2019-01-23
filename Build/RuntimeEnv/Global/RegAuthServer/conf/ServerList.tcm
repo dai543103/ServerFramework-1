@@ -1,0 +1,5 @@
+[ServerList]
+ServerNum = 1
+
+ServerID_0		= 1
+ZoneServer_0	= #ZONE_GATEWAY_IP#:#ZONE_GATEWAY_PORT#

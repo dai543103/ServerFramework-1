@@ -1,0 +1,43 @@
+[Param]
+LogPath = ../log/
+LogLevel = 63
+OssLog = 1
+PlayerLog = 0
+StatLog = 0
+
+[Network]
+#客户端最大包长
+ClientPacketMaxLength = 256000
+
+//客户端发包频率
+ClientPacketMaxFrequency = 1000
+
+//空闲链接超时
+IdleConnectionTimeout = 120
+
+#空闲客户端超时
+IdleClientTimeout = 60000
+
+#空闲服务超时
+IdleServerTimeout = 180000
+
+#收发缓冲区长度
+ExternalSocketRCVBufferSize=256000
+ExternalSocketSNDBufferSize=1000000
+
+#监听IP和地址信息
+Listening_HostNum = 2
+
+Listening_Host_0 = 0.0.0.0:8201
+Listening_Host_1 = 0.0.0.0:8301
+
+# 内网服务器通信的Bus
+# ID 格式为 WorldID.ServerType.InstanceID.ZoneID
+[ServerBus]
+ServerBusNum = 1
+
+# Recharge to World, Client End
+IsServerEnd_0   = 0
+ServerBusID_0   = #WORLDID#.1.1.0
+ServerBusIP_0   = #SERVERIP#
+ServerBusPort_0 = #RECHARGE2WORLD#

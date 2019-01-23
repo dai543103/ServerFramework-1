@@ -1,0 +1,17 @@
+[Param]
+LogPath = ../log/
+LogLevel = 63
+OssLog = 1
+PlayerLog = 0
+StatLog = 0
+
+# 内网服务器通信的Bus
+# ID 格式为 WorldID.ServerType.InstanceID.ZoneID
+[ServerBus]
+ServerBusNum = 1
+
+# WorldServer to ExchangeServer
+IsServerEnd_0   = 1
+ServerBusID_0   = #WORLDID#.1.1.0
+ServerBusIP_0   = #SERVERIP#
+ServerBusPort_0 = #WORLD2EXCHANGE#

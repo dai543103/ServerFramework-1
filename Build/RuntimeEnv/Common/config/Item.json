@@ -1,0 +1,514 @@
+[
+  {
+    "Id": 10001, 
+    "Type_i": 2, 
+    "Give_i": 1, 
+    "Value_1_i": 50000, 
+    "Value_2_i": 0, 
+    "TicketValue": 5000
+  }, 
+  {
+    "Id": 10002, 
+    "Type_i": 2, 
+    "Give_i": 1, 
+    "Value_1_i": 200000, 
+    "Value_2_i": 0, 
+    "TicketValue": 20000
+  }, 
+  {
+    "Id": 10003, 
+    "Type_i": 2, 
+    "Give_i": 1, 
+    "Value_1_i": 500000, 
+    "Value_2_i": 0, 
+    "TicketValue": 50000
+  }, 
+  {
+    "Id": 20001, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20002, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20003, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 30001, 
+    "Type_i": 3, 
+    "Give_i": 0, 
+    "Value_1_i": 2000, 
+    "Value_2_i": 20, 
+    "TicketValue": 200
+  }, 
+  {
+    "Id": 10004, 
+    "Type_i": 2, 
+    "Give_i": 0, 
+    "Value_1_i": 50000, 
+    "Value_2_i": 0, 
+    "TicketValue": 5000
+  }, 
+  {
+    "Id": 10005, 
+    "Type_i": 2, 
+    "Give_i": 0, 
+    "Value_1_i": 200000, 
+    "Value_2_i": 0, 
+    "TicketValue": 20000
+  }, 
+  {
+    "Id": 10006, 
+    "Type_i": 2, 
+    "Give_i": 0, 
+    "Value_1_i": 500000, 
+    "Value_2_i": 0, 
+    "TicketValue": 50000
+  }, 
+  {
+    "Id": 1, 
+    "Type_i": 4, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 3, 
+    "Type_i": 4, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20004, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 5, 
+    "Type_i": 4, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 4, 
+    "Type_i": 4, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20100, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20101, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20102, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20103, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20104, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20105, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20106, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20107, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20108, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20109, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20110, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20111, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20112, 
+    "Type_i": 1, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 30002, 
+    "Type_i": 3, 
+    "Give_i": 0, 
+    "Value_1_i": 60, 
+    "Value_2_i": 6, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 40001, 
+    "Type_i": 5, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 40002, 
+    "Type_i": 5, 
+    "Give_i": 0, 
+    "Value_1_i": 2, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 40003, 
+    "Type_i": 5, 
+    "Give_i": 0, 
+    "Value_1_i": 3, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 40004, 
+    "Type_i": 5, 
+    "Give_i": 0, 
+    "Value_1_i": 4, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 40005, 
+    "Type_i": 5, 
+    "Give_i": 0, 
+    "Value_1_i": 5, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 40006, 
+    "Type_i": 5, 
+    "Give_i": 0, 
+    "Value_1_i": 6, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 40007, 
+    "Type_i": 5, 
+    "Give_i": 0, 
+    "Value_1_i": 7, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20201, 
+    "Type_i": 6, 
+    "Give_i": 0, 
+    "Value_1_i": 30, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 20202, 
+    "Type_i": 6, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 50001, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 1, 
+    "TicketValue": 1000
+  }, 
+  {
+    "Id": 50002, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 2, 
+    "TicketValue": 2000
+  }, 
+  {
+    "Id": 50003, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 5, 
+    "TicketValue": 5000
+  }, 
+  {
+    "Id": 50004, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 10, 
+    "TicketValue": 10000
+  }, 
+  {
+    "Id": 50005, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 20, 
+    "TicketValue": 20000
+  }, 
+  {
+    "Id": 50006, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 50, 
+    "TicketValue": 50000
+  }, 
+  {
+    "Id": 50007, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 100, 
+    "TicketValue": 100000
+  }, 
+  {
+    "Id": 50008, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 200, 
+    "TicketValue": 200000
+  }, 
+  {
+    "Id": 50009, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 300, 
+    "TicketValue": 300000
+  }, 
+  {
+    "Id": 50010, 
+    "Type_i": 7, 
+    "Give_i": 0, 
+    "Value_1_i": 1, 
+    "Value_2_i": 500, 
+    "TicketValue": 500000
+  }, 
+  {
+    "Id": 60002, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 60003, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 60004, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 60005, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 60006, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 60007, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 60008, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }, 
+  {
+    "Id": 60010, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 200000
+  }, 
+  {
+    "Id": 60011, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 500000
+  }, 
+  {
+    "Id": 60012, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 1000000
+  }, 
+  {
+    "Id": 60013, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 2500000
+  }, 
+  {
+    "Id": 60014, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 3000000
+  }, 
+  {
+    "Id": 60015, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 5000000
+  }, 
+  {
+    "Id": 60016, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 10000000
+  }, 
+  {
+    "Id": 60017, 
+    "Type_i": 8, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 888888888
+  }, 
+  {
+    "Id": 2, 
+    "Type_i": 4, 
+    "Give_i": 0, 
+    "Value_1_i": 0, 
+    "Value_2_i": 0, 
+    "TicketValue": 0
+  }
+]
