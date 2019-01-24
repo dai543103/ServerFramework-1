@@ -4,6 +4,8 @@
 #include <sys/file.h>
 #include <sys/stat.h>
 #include <signal.h>
+#include <unistd.h>
+#include <sys/file.h>
 
 #include "SignalUtility.hpp"
 #include "IOHandler.hpp"
