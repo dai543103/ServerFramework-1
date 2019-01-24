@@ -59,7 +59,7 @@ int CStatistic::Initialize(const char* pszStatName, int iMaxSectionNum)
         return -4;
     }
 
-    memset(m_astStatSection, 0, sizeof(m_astStatSection));
+    memset(m_astStatSection, 0, sizeof(*m_astStatSection));
     m_iMaxSectionNum = iMaxSectionNum;
     m_iCurSectionNum = 0;
 
