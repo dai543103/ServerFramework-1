@@ -446,7 +446,7 @@ int CIOHandler::OnRead(int iFD)
 		iRet = CIOHandler::Instance()->OnReadFromExternal(iFD);
 	}
 
-	return 0;
+	return iRet;
 }
 
 int CIOHandler::OnWrite(int iFD)

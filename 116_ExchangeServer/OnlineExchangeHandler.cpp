@@ -283,7 +283,8 @@ const std::string COnlineExchangeHandler::GetSpOrderID()
 	CTimeUtility::ConvertUnixTimeToTimeString(CTimeUtility::GetNowTime(), szParam, true);
 
 	//0-999
-	aiIndex[m_iThreadIndex] = ++aiIndex[m_iThreadIndex]%1000;
+	aiIndex[m_iThreadIndex]++;
+	aiIndex[m_iThreadIndex] %= 1000;
 	SAFE_SPRINTF(szParam+strlen(szParam), sizeof(szParam)-strlen(szParam)-1, "%d", aiIndex[m_iThreadIndex]);
 
 	return szParam;
