@@ -1,4 +1,4 @@
-
+#include <unistd.h>
 #include "GameProtocol.hpp"
 #include "StringUtility.hpp"
 #include "ThreadLogManager.hpp"
