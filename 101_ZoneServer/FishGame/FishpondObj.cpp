@@ -389,7 +389,8 @@ int CFishpondObj::ShootBullet(CGameRoleObj& stRoleObj, long lShootTime, int iPos
 	++pstUserData->iBulletNum;
 
 	pstUserData->alShootTime[pstUserData->iIndex] = lTimeNow;
-	pstUserData->iIndex = (++pstUserData->iIndex) % MAX_BULLET_PER_SECOND;
+	pstUserData->iIndex++;
+	pstUserData->iIndex %= MAX_BULLET_PER_SECOND;
 
 	//体验线相关处理
 	const ExpLineConfig* pstExpLineConfig = NULL;
