@@ -198,10 +198,10 @@ Pack_Server()
 	if test -e "release/bin/LogServer.dbg";then cp release/bin/LogServer.dbg RuntimeEnv/World/LogServer/bin/;fi
 
 	#更新配置
-	cd ~/ConfigTool
-	svn up
-	cd -
-	cp ~/ConfigTool/server/* RuntimeEnv/Common/config/ -rf
+	#cd ~/ConfigTool
+	#svn up
+	#cd -
+	#cp ~/ConfigTool/server/* RuntimeEnv/Common/config/ -rf
 
 	#打包生成安装包
 	#todo jasonxiong 安装包里面后续实际开发中需要过滤掉手动生成的文件
