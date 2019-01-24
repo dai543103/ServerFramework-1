@@ -71,6 +71,7 @@ int CLoginHandler::NotifyRoleLogin(CGameRoleObj* pstRoleObj)
 int CLoginHandler::SecurityCheck(const TNetHead_V2& rstNetHead)
 {
 	// todo ameng ÔİÊ±²»¼ì²é
+	return 0;
     unsigned int uiUin = m_pRequestMsg->sthead().uin();
     if (uiUin == 0)
     {
