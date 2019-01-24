@@ -51,8 +51,8 @@ Init_Server()
 		rm -rf ~/ConfigTool
 	fi
 
-	svn co svn://10.241.93.35:5000/NewBYGame/byx_newmobile_design/ConfigTool/ ~/ConfigTool/
-	cp ~/ConfigTool/server/* RuntimeEnv/Common/config/ -rf
+	#svn co svn://10.241.93.35:5000/NewBYGame/byx_newmobile_design/ConfigTool/ ~/ConfigTool/
+	#cp ~/ConfigTool/server/* RuntimeEnv/Common/config/ -rf
 
 	#如果原来的运行时环境存在，先清空
 	if [ -d "~/RuntimeEnv" ]
